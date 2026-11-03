@@ -1,0 +1,8 @@
+GameProject {
+ ID "WieselAWC"
+ GUID "6AC61D35BB048BD2"
+ TITLE "Wiesel AWC"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
