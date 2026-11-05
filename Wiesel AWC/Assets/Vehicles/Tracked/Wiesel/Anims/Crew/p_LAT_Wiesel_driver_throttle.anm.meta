@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{65D9875F1317A5C2}Assets/Vehicles/Tracked/Wiesel/Anims/Crew/p_LAT_Wiesel_driver_throttle.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "LAT_Wiesel_driver_clips"
+   SourceProfile "LAT_Wiesel_DriverLegR"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

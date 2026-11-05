@@ -1,0 +1,51 @@
+LAT_TrackedVehicle : "{DD675273CA12D18A}Prefabs/Vehicles/Tracked/Wiesel/Wiesel_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6ACBFFDDC249D9FF}" {
+     SourceMaterial "Body_Camo"
+     AssignedMaterial "{6ACBE0EBE0195352}Assets/Vehicles/Tracked/Wiesel/Materials/VERD/Body_Camo_VERD.emat"
+    }
+    MaterialAssignClass "{6ACBD88316B51295}" {
+     SourceMaterial "Chassis_Camo"
+     AssignedMaterial "{6ACB3FF13532273A}Assets/Vehicles/Tracked/Wiesel/Materials/VERD/Chassis_Camo_VERD.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{FB8448FEEE126B2E}" {
+      m_sDefaultOccupantPrefab "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+     }
+    }
+    CargoCompartmentSlot Commander {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{720A3FA811A4B9D1}" {
+      m_sDefaultOccupantPrefab "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Wiesel 1 VERD Pattern"
+    m_Image "{FCEE128BC1860714}UI/Textures/EditorPreviews/Vehicles/Tracked/Wiesel/Wiesel_VERD.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_US TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED LAT_VEHICLE_LIGHT_TRACK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "US"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6ACB6F5F4007F786}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/LAT_Wiesel_RS6_VERD.et"
+    }
+   }
+  }
+ }
+}

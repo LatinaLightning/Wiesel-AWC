@@ -1,0 +1,15 @@
+MatPBRMulti {
+ Cull none
+ RoughnessScale 0.6
+ MetalnessScale 0
+ Color_1 1 1 1 1
+ BCR_1 "{3BDCBC096C3997CF}Assets/Materials/LCAM_STEALTH.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{6ACB4A80A5B54729}" {
+  TilingU 1.9852
+  TilingV 1.9852
+ }
+ DetNormal_1 0.5
+ Roughness_1 1.36
+ Metalness_1 0
+}

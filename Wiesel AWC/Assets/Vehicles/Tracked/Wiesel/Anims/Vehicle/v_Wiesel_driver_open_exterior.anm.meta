@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{E819BCD3563D1CC0}Assets/Vehicles/Tracked/Wiesel/Anims/Vehicle/v_Wiesel_driver_open_exterior.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Wiesel.blend"
+   SourceProfile "Wiesel_Hatches"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

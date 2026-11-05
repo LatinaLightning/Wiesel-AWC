@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6ACBFB78A87A4395}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Chassis_Camo_ARCTIC.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

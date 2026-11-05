@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B4008095B3B5FD4}Sounds/Vehicles/Tracked/Wiesel/LAT_Wiesel_Engine.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

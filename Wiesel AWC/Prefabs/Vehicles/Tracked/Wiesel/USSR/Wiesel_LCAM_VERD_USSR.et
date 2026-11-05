@@ -1,0 +1,60 @@
+LAT_TrackedVehicle : "{DD675273CA12D18A}Prefabs/Vehicles/Tracked/Wiesel/Wiesel_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6ACB7393164C7AF5}" {
+     SourceMaterial "Body_Camo"
+     AssignedMaterial "{6ACB84EF1A887DCB}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/Body_Camo_LCAM_VERD.emat"
+    }
+    MaterialAssignClass "{6ACB3FD6D61676E0}" {
+     SourceMaterial "Chassis_Camo"
+     AssignedMaterial "{6ACB48C8E93C56BA}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/Chassis_Camo_LCAM_VERD.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{FB8448FEEE126B2E}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+    CargoCompartmentSlot Commander {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{720A3FA811A4B9D1}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Wiesel 1 LCAM Pattern"
+    m_Image "{F0DBDD9C679BC241}UI/Textures/EditorPreviews/Vehicles/Tracked/Wiesel/Wiesel_LCAM_VERD.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_USSR TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED LAT_VEHICLE_LIGHT_TRACK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_UniversalInventoryStorageComponent "{BBE4EC3D494E720B}" {
+   MultiSlots {
+    MultiSlotConfiguration "{A74AB1ABD9B31CC2}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6ACBAFBB97D65755}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/USSR/LAT_Wiesel_RS6_LCAM_VERD_USSR.et"
+    }
+   }
+  }
+ }
+}

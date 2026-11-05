@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{68D2F2F58DCB2181}Assets/Vehicles/Tracked/Wiesel/Anims/Crew/p_LAT_Wiesel_rear_steering_main.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "LAT_Wiesel_driver_clips"
+   SourceProfile "LAT_Wiesel_DriverIKT"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

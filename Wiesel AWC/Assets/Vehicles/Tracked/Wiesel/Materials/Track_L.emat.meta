@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B76EAB7B234724B5}Assets/Vehicles/Tracked/Wiesel/Materials/Track_L.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

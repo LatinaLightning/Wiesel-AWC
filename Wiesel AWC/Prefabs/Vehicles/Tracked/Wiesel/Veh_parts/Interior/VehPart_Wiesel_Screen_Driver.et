@@ -1,0 +1,56 @@
+GenericEntity : "{6FAA15E9225C5AB3}Prefabs/Vehicles/Core/CameraFeed/LAT_CameraFeed_Screen_Base.et" {
+ ID "2717BD64B1D44E61"
+ components {
+  MeshObject "{75BCE64211F3150C}" {
+   Object "{5AA3E66C1C966EDB}Assets/Vehicles/Tracked/Wiesel/Veh_parts/Interior/Wiesel_Int_DriverMonitor.xob"
+   Materials {
+    MaterialAssignClass "{BE50B93D08B64B30}" {
+     SourceMaterial "RenderTarget"
+     AssignedMaterial "{315EB52009645D8E}Assets/Vehicles/Core/CameraFeed/Data/LAT_CameraFeed_Glass.emat"
+    }
+   }
+  }
+  ActionsManagerComponent "{4741E3462225C4C7}" {
+   ActionContexts {
+    UserActionContext "{25216CD74DBD702B}" {
+     Position PointInfo "{8589CB8A6FBF521E}" {
+      Offset 0 0.0071 -0.0292
+     }
+     Radius 0.25
+    }
+   }
+   additionalActions {
+    LAT_CameraFeedAction "{59C453DCE14FDE72}" {
+     ParentContextList {
+      "camfeed_driver" "camfeed"
+     }
+    }
+    LAT_CameraFeedAction "{237E81DB858FF819}" {
+     ParentContextList {
+      "camfeed_driver" "camfeed"
+     }
+    }
+    LAT_CameraFeedAction "{12C49DD478BD4A55}" {
+     ParentContextList {
+      "camfeed_driver" "camfeed"
+     }
+    }
+    LAT_CameraFeedAction "{A74A3E81B6C2C79F}" {
+     ParentContextList {
+      "camfeed_driver" "camfeed"
+     }
+    }
+   }
+  }
+  LAT_CameraFeedScreenComponent "{6380E33F6A96A11F}" {
+   m_aFeedIds {
+    "DVE_FRONT"
+    "DVE_REAR"
+   }
+   m_sLayout "{2E80C445F025C34B}UI/layouts/Vehicles/CameraFeed/LAT_CameraFeed_Screen.layout"
+   m_sBootTitle "WIESEL 1  DRIVER"
+   m_vGlassCentre 0 0 0
+   m_fRenderRange 1.6
+  }
+ }
+}

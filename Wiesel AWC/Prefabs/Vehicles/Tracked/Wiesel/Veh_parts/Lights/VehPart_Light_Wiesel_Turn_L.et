@@ -1,0 +1,16 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  ActionsManagerComponent "{607AF25B1E930E81}" {
+   ActionContexts {
+    UserActionContext "{607AF25B752D8670}" {
+     Radius 0.1
+     Omnidirectional 1
+    }
+   }
+  }
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{D37F9ACD581DB6F3}Assets/Vehicles/Tracked/Wiesel/Veh_parts/Lights/Wiesel_Light_Turn_L.xob"
+  }
+ }
+}

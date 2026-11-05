@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6ACBE0EBE0195352}Assets/Vehicles/Tracked/Wiesel/Materials/VERD/Body_Camo_VERD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

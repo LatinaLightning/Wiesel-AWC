@@ -1,0 +1,4902 @@
+AudioClass {
+ signals {
+  SignalClass "180237" {
+   id 180237
+   name "Signal Flat"
+   tl -1536 544
+   res "{0D389EF84FEC8C95}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Flat_8.sig"
+   inputsport {
+    18 38 39 40 50 88 89 90 91
+   }
+   outputsport {
+    1 17 29 31 99
+   }
+   inputvalues {
+    0 0 0 0 50 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 100 1 1 1 1
+   }
+  }
+  SignalClass "181261" {
+   id 181261
+   name "Signal Debris"
+   tl -1536 816
+   res "{9A56EF10AEA2AB96}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface_Debris_8.sig"
+   inputsport {
+    176 179 182 188 190 191 193 198 200 202 208 209 210 212 214 215 227 240 241 242 243 249
+   }
+   outputsport {
+    105 109 110 111
+   }
+   inputvalues {
+    0 2000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 10000 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  SignalClass "182285" {
+   id 182285
+   name "Signal Skid"
+   tl -1536 1392
+   res "{3B454988AE386F1E}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Skid_8.sig"
+   inputsport {
+    1 3 4 5 6 126 127 128 129 177 178 179 180 181 182 183 184 187
+   }
+   outputsport {
+    2 14 15 16 53 54 55 56 111 112 113 114 143 151 152 153
+   }
+   inputvalues {
+    1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  SignalClass "183309" {
+   id 183309
+   name "Signal Roll"
+   tl -1536 1872
+   res "{99E93C3E391BE991}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Roll_Front_Right.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    15 23 8 2 17 20
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass "213005" {
+   id 213005
+   name "Signal SpeedFilter"
+   tl 0 -480
+   res "{3B45DD768A6C4E3D}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Filter.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    5 6 13
+   }
+   inputvalues {
+    50
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+  }
+  SignalClass "214029" {
+   id 214029
+   name "Signal Interior"
+   tl 256 -224
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+   inputsport {
+    45 55 103 111
+   }
+   outputsport {
+    74
+   }
+   inputvalues {
+    0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 10000 1
+   }
+  }
+  SignalClass "215053" {
+   id 215053
+   name "Signal SpeedPitch"
+   tl -1792 -96
+   res "{9B02BD27D5752C13}Sounds/Vehicles/_SharedData/Wheels/Vehicles_Wheel_SpeedToPitch.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    50
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+  }
+  SignalClass "216077" {
+   id 216077
+   name "Signal Trigger"
+   tl 512 -112
+   res "{6A39A5B6E0FF6039}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Trigger.sig"
+   inputsport {
+    1 31
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    50 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    100 1
+   }
+  }
+  SignalClass "217101" {
+   id 217101
+   name "Signal Wetness"
+   tl -1280 256
+   res "{CA6BC2C7328754CE}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tire_Wet.sig"
+   inputsport {
+    1 6
+   }
+   outputsport {
+    5
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass "218125" {
+   id 218125
+   name "Signal Surface"
+   tl -2048 -192
+   res "{CCCD8159D3EACCF4}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    157 158
+   }
+   inputvalues {
+    50
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+  }
+  SignalClass "219149" {
+   id 219149
+   name "Signal Surface"
+   tl -1536 -80
+   res "{A7D67203F4146DC7}Sounds/_SharedData/Signals/OneSignal/Surface.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    1000
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    10000
+   }
+  }
+  SignalClass "220173" {
+   id 220173
+   name "Signal Reverb"
+   tl 768 144
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 112
+   }
+   outputsport {
+    39 105 107 106 110
+   }
+   inputvalues {
+    40 0 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000
+   }
+  }
+  SignalClass "221197" {
+   id 221197
+   name "Signal Water Depth"
+   tl -256 -80
+   res "{1262F4388EE3F5DC}Sounds/_SharedData/Signals/OneSignal/WaterDepth.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass "222221" {
+   id 222221
+   name "Signal Roll Dynamic Range"
+   tl 512 -208
+   res "{D7B7F91D5FD261AF}Sounds/Vehicles/_SharedData/Wheels/Vehicles_Wheel_APC_DynamicRange.sig"
+   inputsport {
+    2 6
+   }
+   outputsport {
+    3
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass "269325" {
+   id 269325
+   name "Signal LAT Tracks W4in"
+   tl -2304 -900
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:1" {
+         id 268300
+         port 1
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:2" {
+         id 268300
+         port 2
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:3" {
+         id 268300
+         port 3
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:4" {
+         id 268300
+         port 4
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:5" {
+         id 268300
+         port 5
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "270349" {
+   id 270349
+   name "Signal LAT Tracks W4out"
+   tl -2304 -804
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:6" {
+         id 268300
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:7" {
+         id 268300
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:8" {
+         id 268300
+         port 8
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:9" {
+         id 268300
+         port 9
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:10" {
+         id 268300
+         port 10
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "271373" {
+   id 271373
+   name "Signal LAT Tracks W8in"
+   tl -2304 -708
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:11" {
+         id 268300
+         port 11
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:12" {
+         id 268300
+         port 12
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:13" {
+         id 268300
+         port 13
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:14" {
+         id 268300
+         port 14
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:15" {
+         id 268300
+         port 15
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "272397" {
+   id 272397
+   name "Signal LAT Tracks W8out"
+   tl -2304 -612
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:16" {
+         id 268300
+         port 16
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:17" {
+         id 268300
+         port 17
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:18" {
+         id 268300
+         port 18
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:19" {
+         id 268300
+         port 19
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:20" {
+         id 268300
+         port 20
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "273421" {
+   id 273421
+   name "Signal LAT Tracks W20in"
+   tl -2304 -516
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:21" {
+         id 268300
+         port 21
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:22" {
+         id 268300
+         port 22
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:23" {
+         id 268300
+         port 23
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:24" {
+         id 268300
+         port 24
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:25" {
+         id 268300
+         port 25
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "274445" {
+   id 274445
+   name "Signal LAT Tracks W20out"
+   tl -2304 -420
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:26" {
+         id 268300
+         port 26
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:27" {
+         id 268300
+         port 27
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:28" {
+         id 268300
+         port 28
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:29" {
+         id 268300
+         port 29
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:30" {
+         id 268300
+         port 30
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "275469" {
+   id 275469
+   name "Signal LAT Tracks W45in"
+   tl -2304 -324
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:31" {
+         id 268300
+         port 31
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:32" {
+         id 268300
+         port 32
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:33" {
+         id 268300
+         port 33
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:34" {
+         id 268300
+         port 34
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:35" {
+         id 268300
+         port 35
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "276493" {
+   id 276493
+   name "Signal LAT Tracks W45out"
+   tl -2304 -228
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:36" {
+         id 268300
+         port 36
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:37" {
+         id 268300
+         port 37
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:38" {
+         id 268300
+         port 38
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:39" {
+         id 268300
+         port 39
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:40" {
+         id 268300
+         port 40
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "277517" {
+   id 277517
+   name "Signal LAT Tracks W65in"
+   tl -2304 -132
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:41" {
+         id 268300
+         port 41
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:42" {
+         id 268300
+         port 42
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:43" {
+         id 268300
+         port 43
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:44" {
+         id 268300
+         port 44
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:45" {
+         id 268300
+         port 45
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "278541" {
+   id 278541
+   name "Signal LAT Tracks P4"
+   tl -2304 -36
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:46" {
+         id 268300
+         port 46
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:47" {
+         id 268300
+         port 47
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:48" {
+         id 268300
+         port 48
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:49" {
+         id 268300
+         port 49
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:50" {
+         id 268300
+         port 50
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "279565" {
+   id 279565
+   name "Signal LAT Tracks P8"
+   tl -2304 60
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:51" {
+         id 268300
+         port 51
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:52" {
+         id 268300
+         port 52
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:53" {
+         id 268300
+         port 53
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:54" {
+         id 268300
+         port 54
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:55" {
+         id 268300
+         port 55
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "280589" {
+   id 280589
+   name "Signal LAT Tracks P20"
+   tl -2304 156
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:56" {
+         id 268300
+         port 56
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:57" {
+         id 268300
+         port 57
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:58" {
+         id 268300
+         port 58
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:59" {
+         id 268300
+         port 59
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "218125:158" {
+         id 218125
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:60" {
+         id 268300
+         port 60
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "281613" {
+   id 281613
+   name "Signal LAT Tracks P45"
+   tl -2304 252
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:61" {
+         id 268300
+         port 61
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:62" {
+         id 268300
+         port 62
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:63" {
+         id 268300
+         port 63
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:64" {
+         id 268300
+         port 64
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:65" {
+         id 268300
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "282637" {
+   id 282637
+   name "Signal LAT Tracks P65"
+   tl -2304 348
+   res "{083D627EE4D5A63D}Sounds/_SharedData/Signals/SimpleHelpers/Interpolation.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:66" {
+         id 268300
+         port 66
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:2" {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:67" {
+         id 268300
+         port 67
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:68" {
+         id 268300
+         port 68
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:4" {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:69" {
+         id 268300
+         port 69
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:5" {
+     port 5
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "213005:6" {
+         id 213005
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:8" {
+     port 8
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass "268300:70" {
+         id 268300
+         port 70
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 2 3 4 5 8
+   }
+   outputsport {
+    7
+   }
+   inputvalues {
+    0 1 0 1 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10 10 10 10 10 4
+   }
+  }
+  SignalClass "283661" {
+   id 283661
+   name "Signal LAT Tracks W4"
+   tl -2048 -900
+   res "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "269325:7" {
+         id 269325
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "270349:7" {
+         id 270349
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass "284685" {
+   id 284685
+   name "Signal LAT Tracks W8"
+   tl -2048 -780
+   res "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "271373:7" {
+         id 271373
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "272397:7" {
+         id 272397
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass "285709" {
+   id 285709
+   name "Signal LAT Tracks W20"
+   tl -2048 -660
+   res "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "273421:7" {
+         id 273421
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "274445:7" {
+         id 274445
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass "286733" {
+   id 286733
+   name "Signal LAT Tracks W45"
+   tl -2048 -540
+   res "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
+   conns {
+    IOPConnectionClass "iop:1" {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "275469:7" {
+         id 275469
+         port 7
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass "iop:3" {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass "276493:7" {
+         id 276493
+         port 7
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+ }
+ filters {
+  FilterClass "233494" : "{5D908DF2FB6DDB7A}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Tire_Hi.conf" {
+   id 233494
+   version 5
+   tl 0 -224
+   parent "{5D908DF2FB6DDB7A}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Tire_Hi.conf"
+   ins {
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "213005:6" {
+       id 213005
+       port 6
+      }
+     }
+    }
+   }
+   pi + {
+    0
+   }
+   pu {
+    16 0
+   }
+  }
+  FilterClass "234518" : "{6EA107CA2D050DC4}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Tire_Low.conf" {
+   id 234518
+   version 5
+   tl 0 -352
+   parent "{6EA107CA2D050DC4}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Tire_Low.conf"
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "213005:13" {
+       id 213005
+       port 13
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "213005:5" {
+       id 213005
+       port 5
+      }
+     }
+    }
+   }
+   pi + {
+    0
+   }
+   pu {
+    18 0
+   }
+  }
+  FilterClass "235542" {
+   id 235542
+   name "Filter Wet"
+   version 5
+   tl -1280 -80
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "217101:5" {
+       id 217101
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    fc 500
+    Q 1
+    gain 1
+   }
+  }
+ }
+ filter_chain {
+  FilterChainClass "236567" {
+   id 236567
+   name "FilterChain Roll"
+   version 5
+   tl 0 -112
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "234518:65" {
+       id 234518
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "233494:65" {
+       id 233494
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    6 0
+   }
+  }
+ }
+ vars {
+  VariableClass "174110" {
+   id 174110
+   name "Variable Offset"
+   version 5
+   tl -1536 464
+   varName "Wheel_Offset_R1"
+   varResource "{A60F08955792B575}Sounds/_SharedData/Variables/GlobalVariables.conf"
+  }
+ }
+ sounds {
+  SoundClass "206857" {
+   id 206857
+   name "SOUND_TIRE_ROLL_LP"
+   version 5
+   tl 512 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "216077:2" {
+       id 216077
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "222221:3" {
+       id 222221
+       port 3
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "223250:65" {
+       id 223250
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    2 0
+   }
+   volume_dB 1
+   outState 211979
+   outStatePort 73735
+  }
+  SoundClass "208905" {
+   id 208905
+   name "SOUND_DAMPER_IMPACT"
+   version 5
+   tl 512 2048
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:15" {
+       id 183309
+       port 15
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "226322:65" {
+       id 226322
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   priority 40
+   outState 211979
+   outStatePort 73735
+   type "One shot"
+   threshold 0.85
+   reset 0.2
+  }
+  SoundClass "209929" {
+   id 209929
+   name "SOUND_DAMPER_COMPRESS"
+   version 5
+   tl 512 2304
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:15" {
+       id 183309
+       port 15
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "208905:4" {
+       id 208905
+       port 4
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "225298:65" {
+       id 225298
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 20
+   outState 211979
+   outStatePort 73735
+   type "One shot"
+   threshold 0.55
+   reset 0.3
+   eventType "OnStart - Stop"
+  }
+  SoundClass "210953" {
+   id 210953
+   name "SOUND_DAMPER_ABRUPT_MOVE"
+   version 5
+   tl 512 2560
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:23" {
+       id 183309
+       port 23
+      }
+     }
+    }
+    ConnectionsClass "con:3" {
+     id 3
+     links {
+      ConnectionClass "208905:4" {
+       id 208905
+       port 4
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "227346:65" {
+       id 227346
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    9 0
+   }
+   priority 30
+   outState 211979
+   outStatePort 73735
+   type "One shot"
+   threshold 0.15
+   reset 0.01
+   eventType "OnStart - Stop"
+  }
+ }
+ buses {
+  BusClass "202759" {
+   id 202759
+   name "Dry/Wet"
+   version 7
+   tl -1280 0
+   ins {
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "235542:65" {
+       id 235542
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "198689:65" {
+       id 198689
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+  }
+  BusClass "203783" {
+   id 203783
+   name "Bus Land"
+   version 7
+   tl -512 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "182285:112" {
+       id 182285
+       port 112
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "199713:65" {
+       id 199713
+       port 65
+      }
+      ConnectionClass "197665:65" {
+       id 197665
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+  }
+  BusClass "204807" {
+   id 204807
+   name "Bus Roll"
+   version 7
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:2" {
+       id 183309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "236567:65" {
+       id 236567
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "200737:65" {
+       id 200737
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    1 0
+   }
+  }
+  BusClass "205831" {
+   id 205831
+   name "Bus Damper Impact"
+   version 7
+   tl 0 2048
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:8" {
+       id 183309
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "258052:65" {
+       id 258052
+       port 65
+      }
+      ConnectionClass "261124:65" {
+       id 261124
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+  }
+  BusClass "292871" {
+   id 292871
+   name "Bus LAT Tracks"
+   version 7
+   tl -1536 -400
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:2" {
+       id 183309
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "287748:65" {
+       id 287748
+       port 65
+      }
+      ConnectionClass "288772:65" {
+       id 288772
+       port 65
+      }
+      ConnectionClass "289796:65" {
+       id 289796
+       port 65
+      }
+      ConnectionClass "290820:65" {
+       id 290820
+       port 65
+      }
+      ConnectionClass "291844:65" {
+       id 291844
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   volume 1
+   volume_dB 0
+  }
+ }
+ switches {
+  SwitchClass "197665" {
+   id 197665
+   name "Switch Damage"
+   version 5
+   tl -1024 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "180237:17" {
+       id 180237
+       port 17
+      }
+     }
+    }
+    ConnectionsClass "con:116252" {
+     id 116252
+     links {
+      ConnectionClass "245764:65" {
+       id 245764
+       port 65
+      }
+      ConnectionClass "241668:65" {
+       id 241668
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:3697267" {
+     id 3697267
+     links {
+      ConnectionClass "246788:65" {
+       id 246788
+       port 65
+      }
+      ConnectionClass "250884:65" {
+       id 250884
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:395758882" {
+     id 395758882
+     links {
+      ConnectionClass "202759:65" {
+       id 202759
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 250
+   ports {
+    PortClass Pristine {
+     max 2
+     default 1
+    }
+    PortClass Flat {
+     min 3
+     max 4
+    }
+    PortClass Rim {
+     min 2
+     max 3
+    }
+   }
+  }
+  SwitchClass "198689" {
+   id 198689
+   name "Switch Surface Dry"
+   version 5
+   tl -1536 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "219149:2" {
+       id 219149
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:138977036" {
+     id 138977036
+     links {
+      ConnectionClass "247812:65" {
+       id 247812
+       port 65
+      }
+      ConnectionClass "251908:65" {
+       id 251908
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:168128003" {
+     id 168128003
+     links {
+      ConnectionClass "242692:65" {
+       id 242692
+       port 65
+      }
+      ConnectionClass "254980:65" {
+       id 254980
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:310398928" {
+     id 310398928
+     links {
+      ConnectionClass "256004:65" {
+       id 256004
+       port 65
+      }
+      ConnectionClass "257028:65" {
+       id 257028
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:847186733" {
+     id 847186733
+     links {
+      ConnectionClass "254980:65" {
+       id 254980
+       port 65
+      }
+      ConnectionClass "242692:65" {
+       id 242692
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1015907001" {
+     id 1015907001
+     links {
+      ConnectionClass "248836:65" {
+       id 248836
+       port 65
+      }
+      ConnectionClass "252932:65" {
+       id 252932
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 100
+   ports {
+    PortClass Asphalt {
+     max 1300
+     default 1
+    }
+    PortClass Cobblestone {
+     min 1300
+     max 1500
+    }
+    PortClass Gravel {
+     min 1500
+     max 3000
+    }
+    PortClass Grass {
+     min 3000
+     max 4000
+    }
+    PortClass Water {
+     min 8000
+     max 9000
+    }
+   }
+  }
+  SwitchClass "199713" {
+   id 199713
+   name "Switch Surface Wet"
+   version 5
+   tl -768 256
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "219149:2" {
+       id 219149
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:138977036" {
+     id 138977036
+     links {
+      ConnectionClass "249860:65" {
+       id 249860
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:168128003" {
+     id 168128003
+     links {
+      ConnectionClass "249860:65" {
+       id 249860
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:847186733" {
+     id 847186733
+     links {
+      ConnectionClass "249860:65" {
+       id 249860
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1015907001" {
+     id 1015907001
+     links {
+      ConnectionClass "243716:65" {
+       id 243716
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 250
+   ports {
+    PortClass Asphalt {
+     max 1500
+     default 1
+    }
+    PortClass Gravel {
+     min 1500
+     max 3000
+    }
+    PortClass Grass {
+     min 3000
+     max 4000
+    }
+    PortClass Water {
+     min 8000
+     max 9000
+    }
+   }
+  }
+  SwitchClass "200737" {
+   id 200737
+   name "Switch Land / Water"
+   version 5
+   tl -256 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "221197:2" {
+       id 221197
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:3986591" {
+     id 3986591
+     links {
+      ConnectionClass "203783:65" {
+       id 203783
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:168128003" {
+     id 168128003
+     links {
+      ConnectionClass "244740:65" {
+       id 244740
+       port 65
+      }
+      ConnectionClass "253956:65" {
+       id 253956
+       port 65
+      }
+     }
+    }
+   }
+   CrossfadeTime 100
+   ports {
+    PortClass Land {
+     max 0.1
+    }
+    PortClass Water {
+     min 0.1
+     max 2
+     default 1
+    }
+   }
+  }
+ }
+ mixers {
+  MixerClass "211979" {
+   id 211979
+   name "OutputState"
+   version 4
+   tl 1024 0
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:73735" {
+     id 73735
+     links {
+      ConnectionClass "206857:65" {
+       id 206857
+       port 65
+      }
+      ConnectionClass "208905:65" {
+       id 208905
+       port 65
+      }
+      ConnectionClass "209929:65" {
+       id 209929
+       port 65
+      }
+      ConnectionClass "210953:65" {
+       id 210953
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:197639" {
+     id 197639
+     links {
+      ConnectionClass "264221:65" {
+       id 264221
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:300039" {
+     id 300039
+     links {
+      ConnectionClass "266269:65" {
+       id 266269
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:301063" {
+     id 301063
+     links {
+      ConnectionClass "265245:65" {
+       id 265245
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:302087" {
+     id 302087
+     links {
+      ConnectionClass "267293:65" {
+       id 267293
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    239077376 0
+   }
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ constants {
+  ConstantClass "268300" {
+   id 268300
+   name "Constants LAT Tracks"
+   version 5
+   tl -2560 -900
+   "Constant values" {
+    IOPConstantsValueClass W4in_X0 {
+     Key "W4in_X0"
+     Value 0.093
+     Port 1
+    }
+    IOPConstantsValueClass W4in_X1 {
+     Key "W4in_X1"
+     Value 0.14197
+     Port 2
+    }
+    IOPConstantsValueClass W4in_Y0 {
+     Key "W4in_Y0"
+     Value 0
+     Port 3
+    }
+    IOPConstantsValueClass W4in_Y1 {
+     Key "W4in_Y1"
+     Value 1
+     Port 4
+    }
+    IOPConstantsValueClass W4in_EXP {
+     Key "W4in_EXP"
+     Value 0.5
+     Port 5
+    }
+    IOPConstantsValueClass W4out_X0 {
+     Key "W4out_X0"
+     Value 0.14197
+     Port 6
+    }
+    IOPConstantsValueClass W4out_X1 {
+     Key "W4out_X1"
+     Value 0.26492
+     Port 7
+    }
+    IOPConstantsValueClass W4out_Y0 {
+     Key "W4out_Y0"
+     Value 1
+     Port 8
+    }
+    IOPConstantsValueClass W4out_Y1 {
+     Key "W4out_Y1"
+     Value 0
+     Port 9
+    }
+    IOPConstantsValueClass W4out_EXP {
+     Key "W4out_EXP"
+     Value 0.5
+     Port 10
+    }
+    IOPConstantsValueClass W8in_X0 {
+     Key "W8in_X0"
+     Value 0.14197
+     Port 11
+    }
+    IOPConstantsValueClass W8in_X1 {
+     Key "W8in_X1"
+     Value 0.26492
+     Port 12
+    }
+    IOPConstantsValueClass W8in_Y0 {
+     Key "W8in_Y0"
+     Value 0
+     Port 13
+    }
+    IOPConstantsValueClass W8in_Y1 {
+     Key "W8in_Y1"
+     Value 1
+     Port 14
+    }
+    IOPConstantsValueClass W8in_EXP {
+     Key "W8in_EXP"
+     Value 0.5
+     Port 15
+    }
+    IOPConstantsValueClass W8out_X0 {
+     Key "W8out_X0"
+     Value 0.26492
+     Port 16
+    }
+    IOPConstantsValueClass W8out_X1 {
+     Key "W8out_X1"
+     Value 0.60432
+     Port 17
+    }
+    IOPConstantsValueClass W8out_Y0 {
+     Key "W8out_Y0"
+     Value 1
+     Port 18
+    }
+    IOPConstantsValueClass W8out_Y1 {
+     Key "W8out_Y1"
+     Value 0
+     Port 19
+    }
+    IOPConstantsValueClass W8out_EXP {
+     Key "W8out_EXP"
+     Value 0.5
+     Port 20
+    }
+    IOPConstantsValueClass W20in_X0 {
+     Key "W20in_X0"
+     Value 0.26492
+     Port 21
+    }
+    IOPConstantsValueClass W20in_X1 {
+     Key "W20in_X1"
+     Value 0.60432
+     Port 22
+    }
+    IOPConstantsValueClass W20in_Y0 {
+     Key "W20in_Y0"
+     Value 0
+     Port 23
+    }
+    IOPConstantsValueClass W20in_Y1 {
+     Key "W20in_Y1"
+     Value 1
+     Port 24
+    }
+    IOPConstantsValueClass W20in_EXP {
+     Key "W20in_EXP"
+     Value 0.5
+     Port 25
+    }
+    IOPConstantsValueClass W20out_X0 {
+     Key "W20out_X0"
+     Value 0.66667
+     Port 26
+    }
+    IOPConstantsValueClass W20out_X1 {
+     Key "W20out_X1"
+     Value 2.33333
+     Port 27
+    }
+    IOPConstantsValueClass W20out_Y0 {
+     Key "W20out_Y0"
+     Value 1
+     Port 28
+    }
+    IOPConstantsValueClass W20out_Y1 {
+     Key "W20out_Y1"
+     Value 0
+     Port 29
+    }
+    IOPConstantsValueClass W20out_EXP {
+     Key "W20out_EXP"
+     Value 0.5
+     Port 30
+    }
+    IOPConstantsValueClass W45in_X0 {
+     Key "W45in_X0"
+     Value 0.66667
+     Port 31
+    }
+    IOPConstantsValueClass W45in_X1 {
+     Key "W45in_X1"
+     Value 2.33333
+     Port 32
+    }
+    IOPConstantsValueClass W45in_Y0 {
+     Key "W45in_Y0"
+     Value 0
+     Port 33
+    }
+    IOPConstantsValueClass W45in_Y1 {
+     Key "W45in_Y1"
+     Value 1
+     Port 34
+    }
+    IOPConstantsValueClass W45in_EXP {
+     Key "W45in_EXP"
+     Value 0.5
+     Port 35
+    }
+    IOPConstantsValueClass W45out_X0 {
+     Key "W45out_X0"
+     Value 2.33333
+     Port 36
+    }
+    IOPConstantsValueClass W45out_X1 {
+     Key "W45out_X1"
+     Value 3.66667
+     Port 37
+    }
+    IOPConstantsValueClass W45out_Y0 {
+     Key "W45out_Y0"
+     Value 1
+     Port 38
+    }
+    IOPConstantsValueClass W45out_Y1 {
+     Key "W45out_Y1"
+     Value 0
+     Port 39
+    }
+    IOPConstantsValueClass W45out_EXP {
+     Key "W45out_EXP"
+     Value 0.5
+     Port 40
+    }
+    IOPConstantsValueClass W65in_X0 {
+     Key "W65in_X0"
+     Value 2.33333
+     Port 41
+    }
+    IOPConstantsValueClass W65in_X1 {
+     Key "W65in_X1"
+     Value 3.66667
+     Port 42
+    }
+    IOPConstantsValueClass W65in_Y0 {
+     Key "W65in_Y0"
+     Value 0
+     Port 43
+    }
+    IOPConstantsValueClass W65in_Y1 {
+     Key "W65in_Y1"
+     Value 1
+     Port 44
+    }
+    IOPConstantsValueClass W65in_EXP {
+     Key "W65in_EXP"
+     Value 0.5
+     Port 45
+    }
+    IOPConstantsValueClass P4_X0 {
+     Key "P4_X0"
+     Value 0.12265
+     Port 46
+    }
+    IOPConstantsValueClass P4_X1 {
+     Key "P4_X1"
+     Value 0.161
+     Port 47
+    }
+    IOPConstantsValueClass P4_Y0 {
+     Key "P4_Y0"
+     Value 0.85
+     Port 48
+    }
+    IOPConstantsValueClass P4_Y1 {
+     Key "P4_Y1"
+     Value 1.15
+     Port 49
+    }
+    IOPConstantsValueClass P4_EXP {
+     Key "P4_EXP"
+     Value 1
+     Port 50
+    }
+    IOPConstantsValueClass P8_X0 {
+     Key "P8_X0"
+     Value 0.22887
+     Port 51
+    }
+    IOPConstantsValueClass P8_X1 {
+     Key "P8_X1"
+     Value 0.30043
+     Port 52
+    }
+    IOPConstantsValueClass P8_Y0 {
+     Key "P8_Y0"
+     Value 0.85
+     Port 53
+    }
+    IOPConstantsValueClass P8_Y1 {
+     Key "P8_Y1"
+     Value 1.15
+     Port 54
+    }
+    IOPConstantsValueClass P8_EXP {
+     Key "P8_EXP"
+     Value 1
+     Port 55
+    }
+    IOPConstantsValueClass P20_X0 {
+     Key "P20_X0"
+     Value 0.52209
+     Port 56
+    }
+    IOPConstantsValueClass P20_X1 {
+     Key "P20_X1"
+     Value 0.68532
+     Port 57
+    }
+    IOPConstantsValueClass P20_Y0 {
+     Key "P20_Y0"
+     Value 0.85
+     Port 58
+    }
+    IOPConstantsValueClass P20_Y1 {
+     Key "P20_Y1"
+     Value 1.15
+     Port 59
+    }
+    IOPConstantsValueClass P20_EXP {
+     Key "P20_EXP"
+     Value 1
+     Port 60
+    }
+    IOPConstantsValueClass P45_X0 {
+     Key "P45_X0"
+     Value 1.88333
+     Port 61
+    }
+    IOPConstantsValueClass P45_X1 {
+     Key "P45_X1"
+     Value 2.78333
+     Port 62
+    }
+    IOPConstantsValueClass P45_Y0 {
+     Key "P45_Y0"
+     Value 0.85
+     Port 63
+    }
+    IOPConstantsValueClass P45_Y1 {
+     Key "P45_Y1"
+     Value 1.15
+     Port 64
+    }
+    IOPConstantsValueClass P45_EXP {
+     Key "P45_EXP"
+     Value 1
+     Port 65
+    }
+    IOPConstantsValueClass P65_X0 {
+     Key "P65_X0"
+     Value 3.01667
+     Port 66
+    }
+    IOPConstantsValueClass P65_X1 {
+     Key "P65_X1"
+     Value 4.31667
+     Port 67
+    }
+    IOPConstantsValueClass P65_Y0 {
+     Key "P65_Y0"
+     Value 0.85
+     Port 68
+    }
+    IOPConstantsValueClass P65_Y1 {
+     Key "P65_Y1"
+     Value 1.15
+     Port 69
+    }
+    IOPConstantsValueClass P65_EXP {
+     Key "P65_EXP"
+     Value 1
+     Port 70
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass "223250" {
+   id 223250
+   name "Shader Roll"
+   version 5
+   tl 256 0
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "263196:65" {
+       id 263196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "228371:65" {
+       id 228371
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "232469:65" {
+       id 232469
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "237572:65" {
+       id 237572
+       port 65
+      }
+      ConnectionClass "204807:65" {
+       id 204807
+       port 65
+      }
+      ConnectionClass "262148:65" {
+       id 262148
+       port 65
+      }
+      ConnectionClass "292871:65" {
+       id 292871
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   ITD 0
+  }
+  ShaderClass "225298" {
+   id 225298
+   name "Shader Damper Compress"
+   version 5
+   tl 256 2304
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "263196:65" {
+       id 263196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "229395:65" {
+       id 229395
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "232469:65" {
+       id 232469
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "260100:65" {
+       id 260100
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "226322" {
+   id 226322
+   name "Shader Damper Impact"
+   version 5
+   tl 256 2048
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "263196:65" {
+       id 263196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "230419:65" {
+       id 230419
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "232469:65" {
+       id 232469
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "205831:65" {
+       id 205831
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass "227346" {
+   id 227346
+   name "Shader Damper"
+   version 5
+   tl 256 2560
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "263196:65" {
+       id 263196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "231443:65" {
+       id 231443
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "232469:65" {
+       id 232469
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "259076:65" {
+       id 259076
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "228371" {
+   id 228371
+   name "LAT Amplitude Tracked Roll"
+   version 5
+   tl 0 0
+   curve Custom
+   AttenuationCurve {
+    CurvePoint "1" {
+     X 5
+     Y 1
+    }
+    CurvePoint "2" {
+     X 30
+     Y 0.4
+    }
+    CurvePoint "3" {
+     X 60
+     Y 0.25
+    }
+    CurvePoint "4" {
+     X 120
+     Y 0.15
+    }
+    CurvePoint "5" {
+     X 250
+     Y 0.07
+    }
+    CurvePoint "6" {
+     X 500
+     Y 0.025
+    }
+    CurvePoint "7" {
+     X 900
+    }
+   }
+  }
+  AmplitudeClass "229395" : "{9F8145144171C64B}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-40LUFS_to_-35LUFS.conf" {
+   id 229395
+   version 5
+   tl 254.773 2230.336
+   parent "{9F8145144171C64B}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-40LUFS_to_-35LUFS.conf"
+  }
+  AmplitudeClass "230419" : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 230419
+   version 5
+   tl 256 1968
+   ctl 0 -21
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+  AmplitudeClass "231443" : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-30LUFS_to_-25LUFS.conf" {
+   id 231443
+   version 5
+   tl 254.85 2480
+   parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-30LUFS_to_-25LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass "232469" : "{297DA068231C3532}Sounds/_SharedData/Configs/Frequency/Vehicles/Frequency_Vehicle_Wheel_base.conf" {
+   id 232469
+   version 5
+   tl 256 -80
+   parent "{297DA068231C3532}Sounds/_SharedData/Configs/Frequency/Vehicles/Frequency_Vehicle_Wheel_base.conf"
+   ins {
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "214029:74" {
+       id 214029
+       port 74
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "237572" {
+   id 237572
+   name "Gravel Debris"
+   version 7
+   tl -1280 1280
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "181261:109" {
+       id 181261
+       port 109
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume -1
+   Pitch -2
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   Selection Random
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Gravel_Debris_LP.wav" {
+     Filename "{3B1A3D6C5B49466E}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Gravel_Debris_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "241668" {
+   id 241668
+   name "Rim Fast"
+   version 7
+   tl -1280 864
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume 2
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Tires_Rim_Fast_LP.wav" {
+     Filename "{350076A13076737D}Sounds/Vehicles/_SharedData/Wheels/Samples/Rim/Tires_Rim_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "242692" {
+   id 242692
+   name "Gravel Fast"
+   version 7
+   tl -1792 432
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Large_Gravel_Fast_LP.wav" {
+     Filename "{3BC91A02A4DFE8A2}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Large_Gravel_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "243716" {
+   id 243716
+   name "Wet Asphalt"
+   version 7
+   tl -1024 256
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "217101:5" {
+       id 217101
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Wet_Asphalt_LP.wav" {
+     Filename "{37E281CD1861D362}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Wet_Asphalt_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "244740" {
+   id 244740
+   name "Water Slow"
+   version 7
+   tl -1280 1024
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Water_Slow_LP.wav" {
+     Filename "{6D5A0AD5C39D2079}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Water_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "245764" {
+   id 245764
+   name "Rim Slow"
+   version 7
+   tl -1280 768
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume 2
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Tires_Rim_Slow_LP.wav" {
+     Filename "{3CCF3C6F59CED7ED}Sounds/Vehicles/_SharedData/Wheels/Samples/Rim/Tires_Rim_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "246788" {
+   id 246788
+   name "Flat Slow"
+   version 7
+   tl -1280 512
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume 9
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Tires_Flat_Slow_LP.wav" {
+     Filename "{899FF0637561DE12}Sounds/Vehicles/_SharedData/Wheels/Samples/Flat/Tires_Flat_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "247812" {
+   id 247812
+   name "Grass Slow"
+   version 7
+   tl -1792 560
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -3
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Grass_Slow_LP.wav" {
+     Filename "{A689CD426533FED5}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Grass_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "248836" {
+   id 248836
+   name "Asphalt Slow"
+   version 7
+   tl -1792 -192
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Humvee_Asphalt_Slow_LP.wav" {
+     Filename "{11FA9246A2CE29D4}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Humvee_Asphalt_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "249860" {
+   id 249860
+   name "Wet Gravel"
+   version 7
+   tl -1024 336
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "217101:5" {
+       id 217101
+       port 5
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Volume -8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Wet_Gravel_LP.wav" {
+     Filename "{6CAF17ACF3A35777}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Wet_Gravel_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "250884" {
+   id 250884
+   name "Flat Fast"
+   version 7
+   tl -1280 608
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "180237:99" {
+       id 180237
+       port 99
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   pu {
+    3 0
+   }
+   Volume 9
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Tires_Flat_Fast_LP.wav" {
+     Filename "{8050BAAD1CD97A82}Sounds/Vehicles/_SharedData/Wheels/Samples/Flat/Tires_Flat_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "251908" {
+   id 251908
+   name "Grass Fast"
+   version 7
+   tl -1792 656
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Large_Grass_Fast_LP.wav" {
+     Filename "{87047F5C10509E0F}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Large_Grass_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "252932" {
+   id 252932
+   name "Asphalt Fast"
+   version 7
+   tl -1792 -16.572
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "215053:2" {
+       id 215053
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   pu {
+    3 0
+   }
+   Volume -7
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Large_Asphalt_Fast_LP.wav" {
+     Filename "{CE61BA8C81C5A9F8}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Large_Asphalt_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "253956" {
+   id 253956
+   name "Water Fast"
+   version 7
+   tl -1280 1120
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Pitch 3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Water_Fast_LP.wav" {
+     Filename "{01F0BACBA53CE593}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Water_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "254980" {
+   id 254980
+   name "Gravel Slow"
+   version 7
+   tl -1792 336
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Gravel_Slow_LP.wav" {
+     Filename "{1D3FB5F03546D03E}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Gravel_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "256004" {
+   id 256004
+   name "Cobblestone Fast"
+   version 7
+   tl -1792 208
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:158" {
+       id 218125
+       port 158
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Large_Cobblestone_Fast_LP.wav" {
+     Filename "{EEFA6C4930BA2980}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Large_Cobblestone_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "257028" {
+   id 257028
+   name "Cobblestone Slow"
+   version 7
+   tl -1792 112
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "218125:157" {
+       id 218125
+       port 157
+      }
+     }
+    }
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "174110:65" {
+       id 174110
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    17 0
+   }
+   pu {
+    1 0
+   }
+   Volume -7
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass "Vehicles_Tires_Large_Cobblestone_Slow_LP.wav" {
+     Filename "{E735268759028D10}Sounds/Vehicles/_SharedData/Wheels/Samples/Roll/Vehicles_Tires_Large_Cobblestone_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "258052" {
+   id 258052
+   name "Impact"
+   version 7
+   tl -256 2048
+   Volume 10
+   "Volume variance" 2
+   Pitch -2
+   Samples {
+    AudioBankSampleClass "Ural4320_Damper_Impact_1.wav" {
+     Filename "{0A0CC0FD3EB65682}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_1.wav"
+    }
+    AudioBankSampleClass "Ural4320_Damper_Impact_2.wav" {
+     Filename "{9312796423516712}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Ural4320_Damper_Impact_3.wav" {
+     Filename "{E41811ECD7F38862}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Ural4320_Damper_Impact_4.wav" {
+     Filename "{E3DFEBBDB17532A1}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass "Ural4320_Damper_Impact_5.wav" {
+     Filename "{94D5833545D7DDD1}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass "Ural4320_Damper_Impact_6.wav" {
+     Filename "{0DCB3AAC5830EC41}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Impact_6.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass "259076" {
+   id 259076
+   name "Abrupt Move"
+   version 7
+   tl 0 2560
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:20" {
+       id 183309
+       port 20
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   Volume 4
+   "Volume variance" 2
+   "Pitch variance" 2
+   Samples {
+    AudioBankSampleClass "BTR70_Damper_1.wav" {
+     Filename "{EE01A5052EC035E8}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_1.wav"
+    }
+    AudioBankSampleClass "BTR70_Damper_2.wav" {
+     Filename "{771F1C9C33270478}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "BTR70_Damper_3.wav" {
+     Filename "{00157414C785EB08}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass "BTR70_Damper_4.wav" {
+     Filename "{07D28E45A10351CB}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass "BTR70_Damper_5.wav" {
+     Filename "{70D8E6CD55A1BEBB}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass "BTR70_Damper_6.wav" {
+     Filename "{E9C65F5448468F2B}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_6.wav"
+     Index 5
+    }
+    AudioBankSampleClass "BTR70_Damper_7.wav" {
+     Filename "{9ECC37DCBCE4605B}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_7.wav"
+     Index 6
+    }
+    AudioBankSampleClass "BTR70_Damper_8.wav" {
+     Filename "{E649ABF6854BFAAD}Sounds/Vehicles/_SharedData/Dampers/Samples/APC/Vehicles_Dampers_APC_AbruptMove_8.wav"
+     Index 7
+    }
+   }
+  }
+  BankLocalClass "260100" {
+   id 260100
+   name "Compress"
+   version 7
+   tl 0 2304
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:17" {
+       id 183309
+       port 17
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   Volume -25
+   "Volume variance" 4
+   Pitch -3
+   "Pitch variance" 3
+   Sustain 200
+   "Fade out time" 200
+   Samples {
+    AudioBankSampleClass "Ural4320_Damper_Squeak_1.wav" {
+     Filename "{29C00C61519A8518}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_1.wav"
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_2.wav" {
+     Filename "{B0DEB5F84C7DB488}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_3.wav" {
+     Filename "{C7D4DD70B8DF5BF8}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_4.wav" {
+     Filename "{C0132721DE59E13B}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_5.wav" {
+     Filename "{B7194FA92AFB0E4B}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_6.wav" {
+     Filename "{2E07F630371C3FDB}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_6.wav"
+     Index 5
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_7.wav" {
+     Filename "{590D9EB8C3BED0AB}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_7.wav"
+     Index 6
+    }
+    AudioBankSampleClass "Ural4320_Damper_Squeak_8.wav" {
+     Filename "{21880292FA114A5D}Sounds/Vehicles/_SharedData/Dampers/Samples/Truck/Vehicles_Dampers_Truck_Compress_8.wav"
+     Index 7
+    }
+   }
+  }
+  BankLocalClass "261124" {
+   id 261124
+   name "Dampers Bump"
+   version 7
+   tl -256 2128
+   Volume -3
+   Pitch -2
+   "Pitch variance" 2
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{2281EBDE71CFEBD9}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_1.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BB9F52476C28DA49}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_2.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{CC953ACF988A3539}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_3.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{CB52C09EFE0C8FFA}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_4.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{BC58A8160AAE608A}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_5.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{2546118F1749511A}Sounds/Vehicles/_SharedData/Dampers/Samples/MilitaryCar/Vehicles_Dampers_MilitaryCar_TireHit_6.wav"
+     Index 5
+    }
+   }
+  }
+  BankLocalClass "262148" {
+   id 262148
+   name "Cabin Rattle"
+   version 7
+   tl -1280 1376
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "183309:8" {
+       id 183309
+       port 8
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   pu {
+    1 0
+   }
+   Pitch 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 1000
+   "Random start offset" 1
+   "Fade in function" SCurve
+   "Fade in time" 200
+   "Fade out function" SCurve
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{51754EEFA89B85D1}Sounds/Vehicles/_SharedData/CabinRattle/Vehicles_CabinRattle_APC_LP.wav"
+    }
+   }
+  }
+  BankLocalClass "287748" {
+   id 287748
+   name "LAT Tracks Ext 4 kmh"
+   version 7
+   tl -1792 -400
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "283661:2" {
+       id 283661
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "278541:7" {
+       id 278541
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{22521C64F55D05B1}Sounds/Vehicles/Tracked/_SharedData/BFV/Samples/LAT_BFV_Tracks_Ext_LP_4kmh.wav"
+    }
+   }
+  }
+  BankLocalClass "288772" {
+   id 288772
+   name "LAT Tracks Ext 8 kmh"
+   version 7
+   tl -1792 -304
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "284685:2" {
+       id 284685
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "279565:7" {
+       id 279565
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{24401E6B97ACB19C}Sounds/Vehicles/Tracked/_SharedData/BFV/Samples/LAT_BFV_Tracks_Ext_LP_8kmh.wav"
+    }
+   }
+  }
+  BankLocalClass "289796" {
+   id 289796
+   name "LAT Tracks Ext 20 kmh"
+   version 7
+   tl -1792 -208
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "285709:2" {
+       id 285709
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "280589:7" {
+       id 280589
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{070F1246A8BBDAE4}Sounds/Vehicles/Tracked/_SharedData/BFV/Samples/LAT_BFV_Tracks_Ext_LP_20kmh.wav"
+    }
+   }
+  }
+  BankLocalClass "290820" {
+   id 290820
+   name "LAT Tracks Ext 45 kmh"
+   version 7
+   tl -1792 -112
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "286733:2" {
+       id 286733
+       port 2
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "281613:7" {
+       id 281613
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{B7643A0E7091B222}Sounds/Vehicles/Tracked/_SharedData/BFV/Samples/LAT_BFV_Tracks_Ext_LP_45kmh.wav"
+    }
+   }
+  }
+  BankLocalClass "291844" {
+   id 291844
+   name "LAT Tracks Ext 65 kmh"
+   version 7
+   tl -1792 -16
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "277517:7" {
+       id 277517
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "282637:7" {
+       id 282637
+       port 7
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   Volume -3
+   "Loop count" 255
+   "Infinite loop" 1
+   "Termination Fade Out" 300
+   "Random start offset" 1
+   "Fade in time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8DA57A2AC1E72A9E}Sounds/Vehicles/Tracked/_SharedData/BFV/Samples/LAT_BFV_Tracks_Ext_LP_65kmh.wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "263196" {
+   id 263196
+   name "Spatiality"
+   version 5
+   tl 256 -384
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass "264221" {
+   id 264221
+   name "AuxOut Reverb EXT"
+   version 5
+   tl 768 720
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "208905:5" {
+       id 208905
+       port 5
+      }
+      ConnectionClass "209929:5" {
+       id 209929
+       port 5
+      }
+      ConnectionClass "210953:5" {
+       id 210953
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "220173:105" {
+       id 220173
+       port 105
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    2 0
+   }
+   OSPort 197639
+  }
+  AuxOutClass "265245" {
+   id 265245
+   name "AuxOut Reverb INT Medium"
+   version 5
+   tl 768 464
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "206857:5" {
+       id 206857
+       port 5
+      }
+      ConnectionClass "208905:5" {
+       id 208905
+       port 5
+      }
+      ConnectionClass "209929:5" {
+       id 209929
+       port 5
+      }
+      ConnectionClass "210953:5" {
+       id 210953
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "220173:106" {
+       id 220173
+       port 106
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "220173:39" {
+       id 220173
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 301063
+  }
+  AuxOutClass "266269" {
+   id 266269
+   name "AuxOut Reverb INT Small"
+   version 5
+   tl 768 336
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "206857:5" {
+       id 206857
+       port 5
+      }
+      ConnectionClass "208905:5" {
+       id 208905
+       port 5
+      }
+      ConnectionClass "209929:5" {
+       id 209929
+       port 5
+      }
+      ConnectionClass "210953:5" {
+       id 210953
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "220173:107" {
+       id 220173
+       port 107
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "220173:39" {
+       id 220173
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 300039
+  }
+  AuxOutClass "267293" {
+   id 267293
+   name "AuxOut Revverb INT Large"
+   version 5
+   tl 768 592
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "206857:5" {
+       id 206857
+       port 5
+      }
+      ConnectionClass "208905:5" {
+       id 208905
+       port 5
+      }
+      ConnectionClass "209929:5" {
+       id 209929
+       port 5
+      }
+      ConnectionClass "210953:5" {
+       id 210953
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "220173:110" {
+       id 220173
+       port 110
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "220173:39" {
+       id 220173
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 302087
+  }
+ }
+ groups {
+  GroupClass "196611" {
+   id 196611
+   name "Sounds/Vehicles/_SharedData/Wheels/Vehicles_Wheel_APC_Template.acp"
+   children {
+    197665 198689 199713 200737 201761 202759 203783 204807 205831 206857 207881 208905 209929 210953 211979 213005 214029 215053 216077 217101 218125 219149 220173 221197 222221 223250 224274 225298 226322 227346 228371 229395 230419 231443 232469 233494 234518 235542 236567 237572 238596 239620 240644 241668 242692 243716 244740 245764 246788 247812 248836 249860 250884 251908 252932 253956 254980 256004 257028 258052 259076 260100 261124 262148 263196 264221 265245 266269 267293
+   }
+   parent -1
+   Color 1 0.502 0 0.1
+  }
+ }
+ version 2
+ listenerWindowModel "{C3CA67CED443E545}Assets/Vehicles/Tracked/Wiesel/Wiesel_Chassis.xob"
+}

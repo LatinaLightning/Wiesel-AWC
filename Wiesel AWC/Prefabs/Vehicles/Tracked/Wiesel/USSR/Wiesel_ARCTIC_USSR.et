@@ -1,0 +1,68 @@
+LAT_TrackedVehicle : "{DD675273CA12D18A}Prefabs/Vehicles/Tracked/Wiesel/Wiesel_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6ACB021EE6EF32A5}" {
+     SourceMaterial "Body_Camo"
+     AssignedMaterial "{6ACB32EEACF5B636}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Body_Camo_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACBDECD6B365FCC}" {
+     SourceMaterial "Chassis_Camo"
+     AssignedMaterial "{6ACBFB78A87A4395}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Chassis_Camo_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACB162097CF5C73}" {
+     SourceMaterial "Body_Metal_Black"
+     AssignedMaterial "{6ACB850925C41B79}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Body_Metal_Black_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACB3F393F57E7AC}" {
+     SourceMaterial "Body_Rubber_Black"
+     AssignedMaterial "{6ACB04EFABA689C6}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Body_Rubber_Black_ARCTIC.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{FB8448FEEE126B2E}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+    CargoCompartmentSlot Commander {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{720A3FA811A4B9D1}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Wiesel 1 Arctic"
+    m_Image "{20F4406123D26D60}UI/Textures/EditorPreviews/Vehicles/Tracked/Wiesel/Wiesel_ARCTIC.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_USSR TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED LAT_VEHICLE_LIGHT_TRACK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_UniversalInventoryStorageComponent "{BBE4EC3D494E720B}" {
+   MultiSlots {
+    MultiSlotConfiguration "{A74AB1ABD9B31CC2}" {
+     SlotTemplate InventoryStorageSlot bandage {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6ACBD0B11F2DADFA}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/USSR/LAT_Wiesel_RS6_ARCTIC_USSR.et"
+    }
+   }
+  }
+ }
+}

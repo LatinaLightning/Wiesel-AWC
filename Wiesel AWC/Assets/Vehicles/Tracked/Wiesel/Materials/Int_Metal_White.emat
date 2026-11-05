@@ -1,0 +1,12 @@
+MatPBRMulti {
+ Cull none
+ Color_1 0.62 0.63 0.58 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{7AA59974FDBAF58B}" {
+  TilingU 1
+  TilingV 1
+ }
+ Roughness_1 1.2
+ Metalness_1 0
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A6B0921236DE5586}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Interior/JBCP_Wiesel.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

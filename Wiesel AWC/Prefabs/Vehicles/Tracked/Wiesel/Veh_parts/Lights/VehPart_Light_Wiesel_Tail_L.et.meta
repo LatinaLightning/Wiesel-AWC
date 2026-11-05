@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4784388CE18A100D}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/VehPart_Light_Wiesel_Tail_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,71 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 1
+ $node "LeftLeg" {
+  $keys t q {
+   $frame 0 1 {
+    #t -0.1025711 -0.016123 0.0010992
+    #q -0.03106624 0.49518085 0.86757016 0.03395475
+   }
+  }
+  $node "LeftLegVolume" {
+   $keys t q {
+    $frame 0 1 {
+     #q 0.16774812 0.01193394 -0.0072947 0.98573077
+    }
+   }
+  }
+  $node "LeftLegTwist" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0.0000002 0.2113308 -0.0000002
+     #q 0.00110379 0.05216606 0.00061647 0.99863774
+    }
+   }
+   $node "LeftKnee" {
+    $keys t q {
+     $frame 0 1 {
+      #t -0.0000006 0.2048681 -0.0000006
+      #q -0.78610301 0.01214416 -0.0693631 0.61407125
+     }
+    }
+    $node "LeftKneeVolume" {
+     $keys t q {
+      $frame 0 1 {
+       #q 0.34470761 -0.0329883 -0.00633073 0.93810892
+      }
+     }
+    }
+    $node "LeftKneeTwist" {
+     $keys t q {
+      $frame 0 1 {
+       #t 0.0000002 0.1903774 0.0000002
+       #q 0.00027552 -0.15017179 -0.00947187 0.98861462
+      }
+     }
+     $node "LeftFoot" {
+      $keys t q {
+       $frame 0 1 {
+        #t -0.000001 0.2178401 -0.0000043
+        #q 0.73297346 0.12946458 0.0552659 0.66553348
+       }
+      }
+      $node "LeftToe" {
+       $keys t q {
+        $frame 0 1 {
+         #t 0.0000001 0.1406004 0.0000001
+         #q 0.3403033 -0.01265824 -0.00168045 0.94022894
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "LAT_Wiesel_DriverLegL"
+  #custProp "sourceFile" "LAT_Wiesel_driver_clips"
+ }
+}

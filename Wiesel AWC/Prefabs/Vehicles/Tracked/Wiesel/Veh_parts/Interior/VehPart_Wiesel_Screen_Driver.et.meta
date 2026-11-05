@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F9865917375FD7A2}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Interior/VehPart_Wiesel_Screen_Driver.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

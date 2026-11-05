@@ -1,0 +1,13 @@
+GenericEntity : "{F19B9991A92C44E4}Prefabs/Weapons/AircraftWeapons/MissilePods/FGM148/LAT_FGM148_Bracket_RS6.et" {
+ ID "2A6004C25974CB90"
+ components {
+  MeshObject "{C92D40B67EC3D2D7}" {
+   Materials {
+    MaterialAssignClass "{6ACB5FDFFE2D6BB6}" {
+     SourceMaterial "Turret_Metal_Camo"
+     AssignedMaterial "{6ACB83726FF4D424}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/Bracket_Camo_LCAM_VERD.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1A3B2F1A149719E9}Assets/Vehicles/Tracked/Wiesel/Anims/Crew/p_LAT_Wiesel_driver_shift_gear.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "LAT_Wiesel_driver_clips"
+   SourceProfile "LAT_Wiesel_DriverUpperL"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

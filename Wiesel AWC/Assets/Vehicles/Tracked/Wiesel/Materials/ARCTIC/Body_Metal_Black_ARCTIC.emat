@@ -1,0 +1,33 @@
+MatPBRMulti {
+ Cull none
+ GlobalNMOMap "{26644B55DE0C70B9}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_Hull_NMO.edds"
+ VFXMap "{AF84D0735B720D8D}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_Hull_VFX.edds"
+ MudOpacity 0.886
+ MudColor 0.85 0.87 0.9 1
+ MudRoughness 2
+ MudBCRMap "{AE37874A11911124}Assets/_SharedData/Dirt/ST_Mud_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{6ACBF614EC5B83A5}" {
+  TilingU 17.937
+  TilingV 17.937
+ }
+ DirtOpacity 0.769
+ DirtLayerSharpness 0.363
+ DirtColor 0.78 0.8 0.84 1
+ DirtRoughness 1
+ DirtBCRMap "{D608FA6C45C55A6F}Assets/_SharedData/Dirt/ST_Dirt02_BCR.edds"
+ DirtMaskMap "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ DirtUVTransform MatUVTransform "{6ACB547988695D33}" {
+  TilingU 17.937
+  TilingV 17.937
+ }
+ Color_1 0.04 0.04 0.04 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{6ACB88E3223B8258}" {
+  TilingU 6
+  TilingV 6
+ }
+ Metalness_1 0
+}

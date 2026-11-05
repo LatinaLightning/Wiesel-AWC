@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{8DA98FB586F9A7BC}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_TOW_BCR.edds"
+ NMOMap "{A6DDF3886EEA54A2}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_TOW_NMO.edds"
+}

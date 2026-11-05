@@ -1,0 +1,37 @@
+Turret : "{43B877FE7B803F69}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/LAT_Wiesel_RS6.et" {
+ ID "03645270DF662287"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{620D095D5963F0C2}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6ACB57B2B313BAFA}" {
+     SourceMaterial "RS6_Base_Camo"
+     AssignedMaterial "{6ACB0B5BB631ACA3}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/RS6_Base_Camo_LCAM_VERD.emat"
+    }
+    MaterialAssignClass "{6ACB501A0C173990}" {
+     SourceMaterial "RS6_Turret_Camo"
+     AssignedMaterial "{6ACB60A56242657E}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/RS6_Turret_Camo_LCAM_VERD.emat"
+    }
+    MaterialAssignClass "{6ACB57C34870A2AE}" {
+     SourceMaterial "RS6_Sight_Camo"
+     AssignedMaterial "{6ACB120CF1A7D7AA}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/RS6_Sight_Camo_LCAM_VERD.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54C955467B201CAF}" {
+   Slots {
+    EntitySlotInfo JavelinBracket {
+     Prefab "{6ACB5813B53F8F2A}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/LAT_Wiesel_Bracket_LCAM_VERD.et"
+    }
+   }
+  }
+ }
+}

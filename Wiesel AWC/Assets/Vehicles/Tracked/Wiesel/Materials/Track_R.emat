@@ -1,0 +1,19 @@
+MatPBRBasic {
+ Color 1 1 1 1
+ Cull none
+ TCModFuncs {
+  TCModShift "{CF46805404413FA8}" {
+   ShiftV 0
+   Refs {
+    "ShiftV"
+    "LAT_TrackedVehicle.m_fTrackR"
+   }
+  }
+ }
+ AlphaTest 0.3
+ AlphaMul 2
+ BlendMode AlphaBlend
+ BCRMap "{A37E195D1CCCAFED}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_Track_BCR.edds"
+ OpacityMap "{4F1750A12584CAAE}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_Track_A.edds"
+ NMOMap "{779B60C4DCAC3D82}Assets/Vehicles/Tracked/Wiesel/Data/Textures/Wiesel_Track_NMO.edds"
+}

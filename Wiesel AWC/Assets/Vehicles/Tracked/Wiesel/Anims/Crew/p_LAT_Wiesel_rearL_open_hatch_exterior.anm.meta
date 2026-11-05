@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{575218EF3599EF14}Assets/Vehicles/Tracked/Wiesel/Anims/Crew/p_LAT_Wiesel_rearL_open_hatch_exterior.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "LAT_Wiesel_rear_hatch_clips"
+   SourceProfile "LAT_Wiesel_Crew98"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

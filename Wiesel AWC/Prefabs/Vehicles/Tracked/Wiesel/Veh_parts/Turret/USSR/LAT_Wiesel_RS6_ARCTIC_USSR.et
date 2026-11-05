@@ -1,0 +1,65 @@
+Turret : "{43B877FE7B803F69}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/LAT_Wiesel_RS6.et" {
+ ID "03645270DF662287"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{620D095D5963F0C2}" {
+      m_sDefaultOccupantPrefab "{9FFEF10757E742EB}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Crew.et"
+     }
+    }
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6ACBD26D6D460BB5}" {
+     SourceMaterial "RS6_Base_Camo"
+     AssignedMaterial "{D507195688ECBE31}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/ARCTIC/RS6_Base_Camo_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACB2B3C9DFE6B09}" {
+     SourceMaterial "RS6_Turret_Camo"
+     AssignedMaterial "{788ED0B4DDDCA8DF}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/ARCTIC/RS6_Turret_Camo_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACBEFE08FA8B73D}" {
+     SourceMaterial "RS6_Sight_Camo"
+     AssignedMaterial "{2AF7021E495CF29A}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/ARCTIC/RS6_Sight_Camo_ARCTIC.emat"
+    }
+    MaterialAssignClass "{6ACB5F8CD1C68062}" {
+     SourceMaterial "RS6_Base_Black"
+     AssignedMaterial "{D87CDA83B012CD8C}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Base_Black_Snow.emat"
+    }
+    MaterialAssignClass "{6ACB12998161A4BA}" {
+     SourceMaterial "RS6_Turret_Black"
+     AssignedMaterial "{DDD0599A73EB3F2E}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Turret_Black_Snow.emat"
+    }
+    MaterialAssignClass "{6ACB299FE7650238}" {
+     SourceMaterial "RS6_Turret_Rubber"
+     AssignedMaterial "{E8D2933888A14ABC}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Turret_Rubber_Snow.emat"
+    }
+    MaterialAssignClass "{6ACB580D461BF38A}" {
+     SourceMaterial "RS6_Turret_Steel"
+     AssignedMaterial "{416FCFA32EE28E97}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Turret_Steel_Snow.emat"
+    }
+    MaterialAssignClass "{6ACB0AE5DAFD8232}" {
+     SourceMaterial "RS6_Sight_Plastic"
+     AssignedMaterial "{D2F9FF450E26277A}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Sight_Plastic_Snow.emat"
+    }
+    MaterialAssignClass "{6ACBA9940A9F7191}" {
+     SourceMaterial "RS6_Sight_Rubber"
+     AssignedMaterial "{0B7FEE3D476B4260}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Sight_Rubber_Snow.emat"
+    }
+    MaterialAssignClass "{6ACB67C83D2443C4}" {
+     SourceMaterial "RS6_Sight_Black"
+     AssignedMaterial "{FD56D406FE768B6B}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/Snow/RS6_Sight_Black_Snow.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54C955467B201CAF}" {
+   Slots {
+    EntitySlotInfo JavelinBracket {
+     Prefab "{C0D461B65D84F044}Prefabs/Weapons/AircraftWeapons/MissilePods/FGM148/LAT_FGM148_Bracket_RS6_ARCTIC.et"
+    }
+   }
+  }
+ }
+}

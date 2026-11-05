@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6ACB120CF1A7D7AA}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/RS6_Sight_Camo_LCAM_VERD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,26 @@
+GenericEntity : "{BE424011355D5138}Prefabs/Props/Military/Radios/JBCP_base.et" {
+ ID "7EA5D6DB328008BC"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{4C7B2E91A6D03F58}Assets/Vehicles/Tracked/Wiesel/Veh_parts/Interior/Wiesel_Int_JBCP.xob"
+  }
+  LAT_JBCPScreenComponent "{68FC0C804E5251D8}" {
+   m_bEnableMap 1
+   m_bEnableMarkers 1
+  }
+  ActionsManagerComponent "{68FB1C6B61E0AC77}" {
+   additionalActions {
+    LAT_JBCPPowerAction "{68FC0C817BDEF6FC}" {
+     ParentContextList {
+      "jbcp_commander"
+     }
+    }
+    LAT_JBCPUseScreenAction "{69192857BAE2D5F0}" {
+     ParentContextList {
+      "jbcp_commander"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+Turret : "{43B877FE7B803F69}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/LAT_Wiesel_RS6.et" {
+ ID "03645270DF662287"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{6ACB9C648E29840A}" {
+     SourceMaterial "RS6_Base_Camo"
+     AssignedMaterial "{9192E97650D05B9F}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/VERD/RS6_Base_Camo_VERD.emat"
+    }
+    MaterialAssignClass "{6ACB3D2A6F01F43D}" {
+     SourceMaterial "RS6_Turret_Camo"
+     AssignedMaterial "{BD8FF68DE666947C}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/VERD/RS6_Turret_Camo_VERD.emat"
+    }
+    MaterialAssignClass "{6ACB5217FC134953}" {
+     SourceMaterial "RS6_Sight_Camo"
+     AssignedMaterial "{351A3E0DB68CEF68}Assets/Vehicles/Generic/Turrets/LAT_RS6/Data/VERD/RS6_Sight_Camo_VERD.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54C955467B201CAF}" {
+   Slots {
+    EntitySlotInfo JavelinBracket {
+     Prefab "{083572BDD369CD80}Prefabs/Weapons/AircraftWeapons/MissilePods/FGM148/LAT_FGM148_Bracket_RS6_VERD.et"
+    }
+   }
+  }
+ }
+}

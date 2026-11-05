@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FE945171D44FB4A8}Assets/Vehicles/Tracked/Wiesel/Materials/Body_Camo.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

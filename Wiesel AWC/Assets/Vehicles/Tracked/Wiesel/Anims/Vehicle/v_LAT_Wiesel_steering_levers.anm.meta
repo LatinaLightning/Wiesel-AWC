@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5F8494BD4D1E7DB9}Assets/Vehicles/Tracked/Wiesel/Anims/Vehicle/v_LAT_Wiesel_steering_levers.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Wiesel.blend"
+   SourceProfile "Wiesel_Hatches"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

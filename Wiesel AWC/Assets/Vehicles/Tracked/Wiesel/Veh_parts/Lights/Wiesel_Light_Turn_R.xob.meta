@@ -1,0 +1,61 @@
+MetaFileClass {
+ Name "{8B7AC5F26DC0B929}Assets/Vehicles/Tracked/Wiesel/Veh_parts/Lights/Wiesel_Light_Turn_R.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{8D9B502BBF8D6ED1}" {
+     SourceMaterial "Light_Housing"
+     AssignedMaterial "{A41475D72DF480C8}Assets/Vehicles/Generic/VehParts/Lights/Data/LAT_Light_Housing_OD.emat"
+    }
+    MaterialAssignClass "{18274F6F0FBABFDD}" {
+     SourceMaterial "Light_Glass"
+     AssignedMaterial "{247F983CAC2B9BBC}Assets/Vehicles/Generic/VehParts/Lights/Data/LAT_Light_Glass.emat"
+    }
+    MaterialAssignClass "{4301094006C653BB}" {
+     SourceMaterial "Light_Lens_Amber"
+     AssignedMaterial "{E5BF69C95DDB6B62}Assets/Vehicles/Tracked/M109A7/Materials/Running_Light.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Wiesel_Light_Turn_R {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_FG_Light_Turn_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{8D1F0255D835F302}Common/Materials/Game/Glass/glass_2mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{0FCD38A4891A1290}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "5.1.2"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{91638B929B30F2AF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{A5C1C4C136E77F97}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{0DB333067ED81F68}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{3C47BA272B8553D7}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{030A90D3689C7AF9}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

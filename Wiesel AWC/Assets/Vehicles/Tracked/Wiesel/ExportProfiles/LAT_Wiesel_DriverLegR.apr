@@ -1,0 +1,14 @@
+$animExportProfile {
+ #trackCount 152
+ #defaultFn ""
+ $tracks {
+  "RightLeg"  ""  "TRA"
+  "RightLegVolume"  "RightLeg"  "TRA"
+  "RightLegTwist"  "RightLeg"  "TRA"
+  "RightKnee"  "RightLegTwist"  "TRA"
+  "RightKneeVolume"  "RightKnee"  "TRA"
+  "RightKneeTwist"  "RightKnee"  "TRA"
+  "RightFoot"  "RightKneeTwist"  "TRA"
+  "RightToe"  "RightFoot"  "TRA"
+ }
+}

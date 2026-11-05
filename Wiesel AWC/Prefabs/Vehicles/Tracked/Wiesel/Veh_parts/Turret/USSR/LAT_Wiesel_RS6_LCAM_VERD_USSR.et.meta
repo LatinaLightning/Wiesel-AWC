@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6ACBAFBB97D65755}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Turret/USSR/LAT_Wiesel_RS6_LCAM_VERD_USSR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

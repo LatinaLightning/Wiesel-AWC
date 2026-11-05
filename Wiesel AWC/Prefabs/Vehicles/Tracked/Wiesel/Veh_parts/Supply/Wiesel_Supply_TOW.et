@@ -1,0 +1,19 @@
+GenericEntity : "{A5AC0827E24C1929}Prefabs/Props/Core/SupplyBox_Base.et" {
+ ID "F30669366CFDDA87"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{BB1688508C92DE16}Assets/Vehicles/Tracked/Wiesel/Veh_parts/Supply/Wiesel_Supply_TOW.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 300
+     m_fResourceValueMax 300
+    }
+   }
+  }
+ }
+}

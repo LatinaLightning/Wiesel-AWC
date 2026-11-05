@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{45328547AB35D8B9}Assets/Vehicles/Tracked/Wiesel/Anims/Crew/p_LAT_Wiesel_rearL_turnout_aimspace.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "LAT_Wiesel_turnout_clips"
+   SourceProfile "LAT_Wiesel_Crew98"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}
