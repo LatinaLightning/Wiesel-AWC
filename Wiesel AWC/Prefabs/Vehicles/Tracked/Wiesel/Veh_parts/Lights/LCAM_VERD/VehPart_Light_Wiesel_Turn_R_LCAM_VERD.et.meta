@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D4DDA78210C24E72}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/LCAM_VERD/VehPart_Light_Wiesel_Turn_R_LCAM_VERD.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

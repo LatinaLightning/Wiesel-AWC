@@ -13,6 +13,28 @@ LAT_TrackedVehicle : "{DD675273CA12D18A}Prefabs/Vehicles/Tracked/Wiesel/Wiesel_b
     }
    }
   }
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   EmissiveSurfaceSlots {
+    SCR_EmissiveLightSurfaceSlot LHeadlight {
+     Prefab "{95553FE51EFF91A6}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Headlight_L_NORD.et"
+    }
+    SCR_EmissiveLightSurfaceSlot RHeadlight {
+     Prefab "{81AE0323850F446E}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Headlight_R_NORD.et"
+    }
+    SCR_EmissiveLightSurfaceSlot FLRun {
+     Prefab "{50B103DFB012D472}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Turn_L_NORD.et"
+    }
+    SCR_EmissiveLightSurfaceSlot FRRun {
+     Prefab "{E1229B0132DFB5AB}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Turn_R_NORD.et"
+    }
+    SCR_EmissiveLightSurfaceSlot LTail {
+     Prefab "{74AC5769E319EDAC}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Tail_L_NORD.et"
+    }
+    SCR_EmissiveLightSurfaceSlot RTail {
+     Prefab "{7934EDF375B5B1FB}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/NORD/VehPart_Light_Wiesel_Tail_R_NORD.et"
+    }
+   }
+  }
   SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
    CompartmentSlots {
     PilotCompartmentSlot PilotCompartment {

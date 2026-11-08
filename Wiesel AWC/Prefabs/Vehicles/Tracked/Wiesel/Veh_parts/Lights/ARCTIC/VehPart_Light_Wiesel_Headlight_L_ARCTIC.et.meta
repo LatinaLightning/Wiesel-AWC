@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{93125144D7A6ECE8}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/ARCTIC/VehPart_Light_Wiesel_Headlight_L_ARCTIC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

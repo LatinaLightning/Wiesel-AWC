@@ -1,0 +1,13 @@
+GameEntity : "{A5E9DED0BBE85936}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/VehPart_Light_Wiesel_Headlight_L.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Materials {
+    MaterialAssignClass "{129F6FDC690F88F8}" {
+     SourceMaterial "Light_Housing"
+     AssignedMaterial "{AC1B157579B679AD}Assets/Vehicles/Tracked/Wiesel/Materials/LCAM_VERD/Light_Housing_LCAM_VERD.emat"
+    }
+   }
+  }
+ }
+}

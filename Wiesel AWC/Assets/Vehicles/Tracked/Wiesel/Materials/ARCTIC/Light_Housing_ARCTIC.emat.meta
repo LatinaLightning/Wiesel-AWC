@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A891DA2CBDF98FF}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Light_Housing_ARCTIC.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

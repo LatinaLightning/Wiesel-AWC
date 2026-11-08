@@ -1,11 +1,6 @@
 Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LAT_RS6_Turret_base.et" {
  ID "03645270DF662287"
  components {
-  WeaponSlotComponent "{393CD7608D25E083}" {
-   AttachType InventoryStorageSlot "{4A828817F9EEB9DF}" {
-    Offset 0 -0.14 0
-   }
-  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    DoorInfoList {
     CompartmentDoorReference "{620CD9EE5080AD3D}" {
@@ -29,8 +24,8 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
       }
       UIInfo SCR_ActionUIInfo "{91DE654E7125D546}" : "{985161CA55892A3C}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetInGunner.conf" {
       }
-      "Sort Priority" 5
       VisibilityRange 2
+      "Sort Priority" 5
      }
      GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
       ParentContextList {
@@ -38,8 +33,8 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
       }
       UIInfo SCR_ActionUIInfo "{F7CC03189E1F6E1B}" : "{6B098766DC92FCA3}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetOut.conf" {
       }
-      "Sort Priority" 12
       VisibilityRange 2
+      "Sort Priority" 12
      }
      JumpOutAction SCR_JumpOutAction "{5D0B1D47DC1C5730}" {
       UIInfo SCR_ActionUIInfo "{4DC1FD57C6FE2CA3}" : "{66FA02022BE60AC7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Eject.conf" {
@@ -48,27 +43,29 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
      }
      SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
       ParentContextList {
-       "driver" "commander" "passenger"
+       "gunner"
       }
-      UIInfo SCR_ActionUIInfo "{8E551D8D5EE6C3B3}" : "{50D232E0CC3A06A7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_SwitchSeatGunner.conf" {
+      UIInfo SCR_ActionUIInfo "{8E551D8D5EE6C3B3}" {
+       Name "#AR-VehiclePosition_Gunner"
+       m_sIconName "veh_gunner"
       }
-      "Sort Priority" 5
       VisibilityRange 2
+      "Sort Priority" 5
      }
      AdditionalActions {
       SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
        ParentContextList {
         "gunner"
        }
-       "Sort Priority" 4
        VisibilityRange 2
+       "Sort Priority" 4
       }
       SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
        ParentContextList {
         "hatch_rear_l"
        }
-       "Sort Priority" 4
        VisibilityRange 2
+       "Sort Priority" 4
       }
      }
      PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
@@ -82,6 +79,7 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
      }
      CanTurnOut 1
      TurnOutDoorIdx 0
+     m_bIsWaterTight 0
     }
    }
   }
@@ -93,17 +91,13 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
     Offset 0.098 -0.545 0.339
    }
   }
+  WeaponSlotComponent "{393CD7608D25E083}" {
+   AttachType InventoryStorageSlot "{4A828817F9EEB9DF}" {
+    Offset 0.1695 -0.2071 0.0901
+   }
+  }
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    ActionContexts {
-    UserActionContext "{795B721CC4F1726E}" {
-     ContextName "rs6_lase"
-     Position PointInfo "{63C77B171AC1D0F8}" {
-      PivotID ""
-      Offset -0.19 -0.268 -0.071
-     }
-     Radius 0.3
-     Omnidirectional 1
-    }
     UserActionContext "{F8D0A1FDEC7CB803}" {
      ContextName "gunner"
      Position PointInfo "{B1DFCAF8BC7F5136}" {
@@ -124,47 +118,27 @@ Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LA
     }
    }
    additionalActions {
-    LAT_TurretLaseGroupUpAction "{69DFECA3C98D89B9}" {
-     ParentContextList {
-      "rs6_lase"
-     }
-    }
-    LAT_TurretLaseGroupDownAction "{521F388D1EF1BB8A}" {
-     ParentContextList {
-      "rs6_lase"
-     }
-    }
-    LAT_TurretLaseTargetUpAction "{03D75A0BB85C711D}" {
-     ParentContextList {
-      "rs6_lase"
-     }
-    }
-    LAT_TurretLaseTargetDownAction "{32AE05F28C379BD4}" {
-     ParentContextList {
-      "rs6_lase"
-     }
-    }
     SCR_ResupplyTurretBeltSupportStationAction "{F00B324ED0DFD4D3}" {
-     ParentContextList {
-      "default" "hatch_rear_l" "hatch_rear_r"
+     ParentContextList + {
+      "hatch_rear_l" "hatch_rear_r"
      }
-     "Sort Priority" 20
      Duration -1
      CanAggregate 1
      PerformPerFrame 1
+     "Sort Priority" 20
      m_fLoopActionHoldDuration 0.1
      m_bLowerWeaponOnUse 1
      m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"
      m_sSoundEventName "SOUND_RELOAD"
     }
     SCR_ResupplyTurretBeltSupportStationAction "{26423BA4DED004FA}" {
-     ParentContextList {
-      "default" "hatch_rear_l" "hatch_rear_r"
+     ParentContextList + {
+      "hatch_rear_l" "hatch_rear_r"
      }
-     "Sort Priority" 21
      Duration -1
      CanAggregate 1
      PerformPerFrame 1
+     "Sort Priority" 21
      m_fLoopActionHoldDuration 0.1
      m_bLowerWeaponOnUse 1
      m_sSoundProject "{310B4870AE881477}Sounds/Weapons/HeavyWeapons/M242/Weapons_HeavyWeapons_M242_Handling.acp"

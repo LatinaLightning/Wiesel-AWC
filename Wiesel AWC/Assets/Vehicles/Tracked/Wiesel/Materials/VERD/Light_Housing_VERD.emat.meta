@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{905E1C8069B43B99}Assets/Vehicles/Tracked/Wiesel/Materials/VERD/Light_Housing_VERD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

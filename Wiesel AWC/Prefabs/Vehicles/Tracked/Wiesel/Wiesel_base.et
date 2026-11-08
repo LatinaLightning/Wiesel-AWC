@@ -446,9 +446,11 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      }
      SwitchSeatAction SCR_SwitchSeatAction "{05D25232693F3780}" {
       ParentContextList {
-       "driver" "commander" "passenger"
+       "driver"
       }
-      UIInfo SCR_ActionUIInfo "{2DA978C242624EB6}" : "{81A6CCEE69BAABC4}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_SwitchSeatDriver.conf" {
+      UIInfo SCR_ActionUIInfo "{2DA978C242624EB6}" {
+       Name "#AR-VehiclePosition_Driver"
+       m_sIconName "mountAsDriverCommand"
       }
       "Sort Priority" 1
      }
@@ -463,7 +465,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      BaseCoverage 0.4
      CanTurnOut 1
      TurnOutDoorIdx 0
-     m_bIsWaterTight 1
+     m_bIsWaterTight 0
      m_DefaultOccupantData SCR_DefaultOccupantData "{FB8448FEEE126B2E}" {
       m_sDefaultOccupantPrefab "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
      }
@@ -473,21 +475,32 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
       ParentContextList {
        "hatch_rear_r"
       }
+      UIInfo SCR_ActionUIInfo "{6ACE10A0000000B1}" : "{DE16A921564FEEE1}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetInPassenger.conf" {
+      }
       "Sort Priority" 2
      }
      GetOutAction SCR_GetOutAction "{217DB25671318D0B}" {
       ParentContextList {
        "hatch_rear_r_int"
       }
+      UIInfo SCR_ActionUIInfo "{6ACE10A0000000B2}" : "{6B098766DC92FCA3}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetOut.conf" {
+      }
       "Sort Priority" 12
      }
      JumpOutAction SCR_JumpOutAction "{A65C79ADFF65D7A1}" {
+      UIInfo SCR_ActionUIInfo "{6ACE10A0000000B3}" : "{66FA02022BE60AC7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Eject.conf" {
+      }
       "Sort Priority" 12
      }
      SwitchSeatAction SCR_SwitchSeatAction "{851302E32D89A357}" {
       ParentContextList {
-       "driver" "commander" "passenger"
+       "commander"
       }
+      UIInfo SCR_ActionUIInfo "{6ACC5628F339B9C3}" {
+       Name "#AR-VehiclePosition_Commander"
+       m_sIconName "veh_commander"
+      }
+      Duration 1
       "Sort Priority" 1
      }
      PassengerPositionInfo EntitySlotInfo "{8AE108FE4928F119}" {
@@ -505,7 +518,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      BaseCoverage 0.4
      CanTurnOut 1
      TurnOutDoorIdx 1
-     m_bIsWaterTight 1
+     m_bIsWaterTight 0
      m_DefaultOccupantData SCR_DefaultOccupantData "{720A3FA811A4B9D1}" {
       m_sDefaultOccupantPrefab "{E1CB513B8B9B08F4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Crew.et"
      }
@@ -518,8 +531,8 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
     Description "German air-portable light tracked weapons carrier, crew of three, with an RS6 remote weapon station (30 mm M230LF, coaxial M240, Javelin) on the roof ring, operated from the rear left seat. Stowed TOW rounds carry 300 supply."
     Icon "{7B9921BD21127D18}UI/Textures/Editor/EditableEntities/Vehicles/LAT_EditableEntity_Vehicle_LightTrack.edds"
     m_Image "{086D29B9E7BC2489}UI/Textures/EditorPreviews/Vehicles/Tracked/Wiesel/Wiesel_OD.edds"
-    m_aAuthoredLabels {
-     ENTITYTYPE_VEHICLE FACTION_US TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED LAT_VEHICLE_LIGHT_TRACK
+    m_aAuthoredLabels + {
+     FACTION_US TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED LAT_VEHICLE_LIGHT_TRACK
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
@@ -532,9 +545,6 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      }
     }
    }
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "US"
   }
   SCR_FuelConsumptionComponent "{512CC5B0F07DA8F9}" {
    m_fFuelConsumption 22
@@ -588,10 +598,8 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
    }
    m_fMaxWeight 200
   }
-  SCR_VehicleDustPerWheel "{5476BC43E4910F64}" {
-   m_aWheels {
-    0 1 4 5
-   }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "US"
   }
   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
@@ -956,8 +964,8 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      Output "Gearbox"
     }
     Gearbox Gearbox Gearbox {
-     Forward {
-      4 2.6 1.8 1.3 1
+     Forward + {
+      2.6 1.8 1.3 1
      }
      Reverse 4
      Output "Diff_C"
@@ -982,10 +990,10 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        Type LSD
        Ratio 3.5
        Strength 0.6
-       "Anti slip" 2000
-       "Anti slip torque" 3000
        Output0 "Wheel_L01"
        Output1 "Wheel_R01"
+       "Anti slip" 2000
+       "Anti slip torque" 3000
       }
       Suspension Suspension "{4D8B26DFF8859A7B}" {
        MaxSteeringAngle 10
@@ -996,6 +1004,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        MaxTravelDown 0.07
       }
       Wheel Wheel "{4D8B26DFFE211745}" {
+       Parent "Diff_01"
        Radius 0.265
        Mass 45
        BrakeTorque 1600
@@ -1023,10 +1032,10 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        Type LSD
        Ratio 3.5
        Strength 0.6
-       "Anti slip" 2000
-       "Anti slip torque" 3000
        Output0 "Wheel_L02"
        Output1 "Wheel_R02"
+       "Anti slip" 2000
+       "Anti slip torque" 3000
       }
       Suspension Suspension "{4D8B26DF2B10AE05}" {
        MaxSteeringAngle 0
@@ -1037,6 +1046,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        MaxTravelDown 0.07
       }
       Wheel Wheel "{4D8B26DF30A4E4D7}" {
+       Parent "Diff_02"
        Radius 0.265
        Mass 45
        BrakeTorque 1600
@@ -1064,10 +1074,10 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        Type LSD
        Ratio 3.5
        Strength 0.6
-       "Anti slip" 2000
-       "Anti slip torque" 3000
        Output0 "Wheel_L03"
        Output1 "Wheel_R03"
+       "Anti slip" 2000
+       "Anti slip torque" 3000
       }
       Suspension Suspension "{65FE42D53E7FC4FB}" {
        MaxSteeringAngle -10
@@ -1078,6 +1088,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
        MaxTravelDown 0.07
       }
       Wheel Wheel "{9F671C534904A883}" {
+       Parent "Diff_03"
        Radius 0.265
        Mass 45
        BrakeTorque 1600
@@ -1104,7 +1115,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
   BaseFlattenGrassComponent "{55FCDD8048D3AE17}" {
    ParametersCollection {
     FlattenGrassParametersObject "{55FCDD804A371EA5}" {
-     SizeX 2.0
+     SizeX 2
      SizeZ 3.3
     }
    }
@@ -1132,6 +1143,15 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      }
     }
     SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+    AirIntakes {
+     PointInfo "{6ACE10A000000001}" {
+      Offset 0.42 1.05 0.72
+     }
+     PointInfo "{6ACE10A000000002}" {
+      Offset 0.1 1.05 0.72
+     }
+    }
+    DrowningTime 10
      MaxStartupTime 1.9
      EngineStartupChance 100
      ThrottleCurve {
@@ -1142,9 +1162,6 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      }
      ClutchUncoupleTime 0.2
      ClutchCoupleTime 0.25
-     ClutchFeedbackRpm 1000
-     ClutchUncoupleRpm 800
-     ClutchCoupleRpm 1200
      Latency 1
      UpShiftFactor 2
      UpShiftRpm 1250
@@ -1227,7 +1244,6 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      DisablePhysicsInteraction 1
      RegisterActions 1
      RegisterActionSignals 1
-     CountAsParentForExplosions 1
     }
    }
   }
@@ -1375,7 +1391,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
      ContextName "commander"
      Position PointInfo "{F999E281E8099914}" {
       PivotID "v_crew_idle_01"
-      Offset 0 0.6 0
+      Offset 0 0.3799 0.0232
      }
      Radius 0.3
      Omnidirectional 1
@@ -1536,7 +1552,7 @@ LAT_TrackedVehicle : "{7B1A85626EE95DC6}Prefabs/Vehicles/Core/LAT_TrackedVehicle
    }
   }
  }
- m_fTrackUVPerMeter 7.3714
+ m_fTrackUVPerMeter 7.371
  m_bInvertScroll 1
  {
   GameEnvironmentProbeEntity : "{79BB71A18DF7E99C}Prefabs/Vehicles/Core/Vehicle_Probe_base.et" {

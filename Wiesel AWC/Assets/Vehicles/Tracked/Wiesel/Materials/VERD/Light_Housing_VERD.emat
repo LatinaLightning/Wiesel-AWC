@@ -1,0 +1,12 @@
+MatPBRMulti {
+ Cull none
+ Color_1 0.419 0.454 0.24 1
+ BCR_1 "{69664C7AE43E919C}Common/Textures/Camouflage/T_CamoRectangle_05_BC.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{68AC8E2DBBAF309D}" {
+  TilingU 9.455
+  TilingV 9.455
+ }
+ Roughness_1 1.36
+ Metalness_1 0
+}

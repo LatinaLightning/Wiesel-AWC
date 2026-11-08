@@ -1,12 +1,180 @@
-License
+LATINALIGHTNING MOD LICENSE
+Version 1.0, November 2026
 
-Due to repeated infringements of existing Intellectual Property and unreconcilable ethical differences, the following groups / persons are restricted from using any LatinaLightning mods:
+Copyright (c) 2026 LatinaLightning and contributors. All rights reserved except as granted below.
 
-Groups: Forward Observation Group (FOG), 75th Ranger Regiment MILSIM, Phantom Company MILSIM, or any affiliated persons
+This is a custom license issued under Section 3 of the Arma Reforger Workshop Terms of Use.
 
-Individuals: J0hnnyRingo34, ARXRPxDESERTDOGx, Barnacle Mom, B1GEAZY63, DSBrewer, Doom, gantelya666, myvapeblewup, or any affiliated persons
+SUMMARY (for convenience only; the numbered sections control)
+Allowed: play the Mods, run them unmodified on non-monetized servers, list them as dependencies, reuse our scripts, publish retextures, post screenshots and videos.
+Not allowed: reupload a Mod, rip or copy its models, sounds or animations, port it, or make money from it.
+Parties named in Section 7 receive no license.
 
-Now RHS free - Not using their license anymore. 
+
+1. DEFINITIONS
+
+"Mod" means each Arma Reforger Workshop item published by LatinaLightning that carries this License, in every version published with it, including its scripts, configs, prefabs, layouts, worlds, models, textures, materials, animations, sounds, images and text.
+
+"Licensor" means LatinaLightning and, for their own work, each contributor to a Mod.
+
+"Our Material" means everything in a Mod that the Licensor created or owns. It does not include Bohemia Content or Third-Party Material.
+
+"Our Scripts" means the script source files and UI layout files in a Mod, to the extent they are Our Material.
+
+"Bohemia" means Bohemia Interactive a.s. "Bohemia Content" means Arma Reforger and all other material owned by Bohemia.
+
+"Third-Party Material" means material in a Mod that belongs to anyone else, including assets licensed or purchased from other creators and material from other mods.
+
+"Workshop" means the official Arma Reforger Workshop.
+
+"Written Permission" means a written message from LatinaLightning that names who it is for and exactly what it allows. Silence, past tolerance, or permission from anyone else is not Written Permission.
+
+"You" means anyone who downloads, hosts, uses or depends on a Mod, and any group or server You act for.
 
 
+2. WHAT YOU MAY DO
 
+If You follow this License, the Licensor gives You a limited, non-exclusive, non-transferable, revocable, free license to:
+
+a) download a Mod from the Workshop and use it in Arma Reforger;
+b) run an unmodified Mod on Arma Reforger servers that comply with Section 4, loaded through the Workshop by its Workshop ID;
+c) list a Mod as a dependency of Your own mod, scenario or server setup under Section 5;
+d) publish screenshots, videos and streams of a Mod in play, within Bohemia's Game Content Usage Rules, as long as no Mod file is distributed;
+e) reuse Our Scripts and publish retextures under Section 5.
+
+
+3. WHAT YOU MAY NOT DO
+
+Unless You have Written Permission or Section 5 allows it, You may not:
+
+a) reupload, mirror, repack or share a Mod or any file from it, in whole or in part, changed or unchanged, on the Workshop or anywhere else;
+b) copy Our Material into any other mod or project;
+c) publish changed versions of Our Material, including edited models, sounds, animations or prefabs;
+d) extract, unpack, decompile or reverse engineer a Mod to obtain its models, textures, sounds or other assets, except where mandatory law allows it;
+e) convert or port any part of a Mod to another game, engine or platform;
+f) remove or change credits, copyright notices or this License;
+g) claim any part of a Mod as Your own, or suggest that the Licensor made, approved or supports Your work, server or community.
+
+
+4. NO COMMERCIAL USE, NO MONETIZATION, BOHEMIA PRODUCTS ONLY
+
+This Section is required by the Arma Reforger Workshop Terms of Use. It binds everyone, including anyone with Written Permission.
+
+a) No commercial use. You may not use a Mod or any part of it for any commercial purpose.
+b) No monetization. You may not monetize a Mod or any part of it, directly or indirectly. This includes charging for access to, or priority on, a server running a Mod; selling or rewarding ranks, perks, items, vehicles, slots or currency that involve a Mod; tying donations, subscriptions or memberships to any in-game benefit; and including a Mod in any paid product or service.
+c) Bohemia's approval of a monetization scheme gives You no rights under this License.
+d) A voluntary donation is not monetization only if the donor receives nothing in return and every player has the same access whether they donate or not.
+e) Bohemia products only. You may not use a Mod or any part of it outside Bohemia's own products.
+
+
+5. DEPENDENCIES, OPEN SCRIPTS AND RETEXTURES
+
+Dependencies. Your mod may list a Mod as a dependency, and may inherit from, override or call its prefabs, configs and scripts, if Your mod:
+
+a) contains no Mod file and no copied part of one, other than material this Section allows;
+b) lets the Workshop deliver the Mod from our official listing;
+c) complies with Sections 3 and 4.
+
+A dependency gives You no rights in the Mod. A Mod may change or be removed at any time, and no notice or support is owed to dependent mods.
+
+Open scripts. Our Scripts are open for reuse. Without asking, You may read, imitate and copy them, in whole or in part, and make and publish derivative works from them, such as new JBCP apps.
+
+Not open. A script file whose header credits another author's work is Third-Party Material, so this Section does not open it. LAT_TurretGyroComponent.c is one of these.
+
+Retextures. Without asking, You may publish retextures of a Mod. A retexture is a mod that depends on the Mod and changes how its models look, using textures and materials You made or edited from Our Material. It must not contain the Mod's models. Textures that are Third-Party Material, including those on purchased models, may not be copied or edited. Paint Your own for those models.
+
+Conditions. Anything You publish under Open scripts or Retextures must:
+
+d) credit LatinaLightning and name the source Mod on its Workshop page;
+e) state in its credits that our work was changed, if it was;
+f) follow Section 4 and carry the same limits in its own license.
+
+You keep the rights in what You add, and our work in it stays ours. You may open a Mod's files only to obtain what this Section covers. Everything else, including models, sounds, animations and Third-Party Material, stays under Section 3. Bohemia Content is never covered.
+
+
+6. OWNERSHIP
+
+The Licensor keeps all rights in Our Material. This License gives permission only and transfers no ownership. All rights not expressly granted are reserved. Each contributor keeps the rights to their own work.
+
+
+7. EXCLUDED PARTIES
+
+No license of any kind is granted to the parties listed below. They may not download, host, use, republish or depend on any Mod, and Sections 2 and 5 give them nothing.
+
+Groups:
+- Forward Observation Group (FOG)
+- 75th Ranger Regiment MILSIM
+- Phantom Company MILSIM
+- TTT
+
+Individuals:
+- J0hnnyRingo34
+- ARXRPxDESERTDOGx
+- Barnacle Mom
+- B1GEAZY63
+- DSBrewer
+- Doom
+- gantelya666
+- myvapeblewup
+- BranActual
+- TraceSnowOwl
+- MilSosa
+
+This exclusion also covers:
+
+a) any other name or account a listed party uses;
+b) any server, community or mod a listed party owns, runs or administers;
+c) anyone acting for a listed party, such as someone hosting, developing or publishing on its behalf.
+
+This list is a licensing decision and nothing more. It is not a statement of fact or an accusation about anyone, and it is not based on ethnicity, gender, religion or any other protected characteristic. LatinaLightning may add or remove names by publishing an updated License. A player who is not excluded does not breach this License by joining a server in good faith.
+
+
+8. THIRD-PARTY MATERIAL AND BOHEMIA CONTENT
+
+This License applies to Our Material only. It grants no rights in Bohemia Content, which remains the property of Bohemia.
+
+Third-Party Material stays under its owners' terms and is credited in the Mod or on its Workshop page where those terms require it. Where those terms differ from this License, they control for that material, and nothing here adds a restriction they do not allow.
+
+Third-Party Material that we licensed for use inside a Mod is provided only as part of that Mod, for display in the game. You receive no right to extract it or to use it on its own.
+
+
+9. TRADEMARKS AND REAL-WORLD DISCLAIMER
+
+The Mods are unofficial fan content for a video game. They are not affiliated with, authorized, endorsed or sponsored by Bohemia or by any manufacturer, trademark owner, government or armed force. Bohemia Interactive, ARMA and all associated logos and designs are trademarks or registered trademarks of Bohemia Interactive a.s. All other names and marks belong to their owners and appear only to identify the real-world equipment depicted.
+
+"1-11 Armored Cavalry" and "1-11 ACR" in the Mods refer to a gaming community. They do not represent or speak for any United States Army unit, the United States Army or any other part of the United States Government.
+
+The Mods are entertainment built from publicly available information, and their performance values are set for gameplay. They are not technical data and must not be relied on for real-world training, planning or operations.
+
+
+10. TECHNICAL MEASURES
+
+A Mod may include checks that switch off its own features for anyone not licensed under this License. Such a check will only make the Mod act as if it were not loaded. It will not harm a player's game, account or device.
+
+
+11. NO WARRANTY, NO LIABILITY
+
+Mods are provided "as is" and "as available", with no warranty of any kind. They may change, break or be removed at any time, and no support is owed. To the fullest extent the law allows, the Licensor is not liable for any claim, loss or damage arising from a Mod or its use.
+
+
+12. TERMINATION AND ENFORCEMENT
+
+Your rights end automatically if You breach this License. LatinaLightning may also revoke them at any time, including by adding You to Section 7. When Your rights end, You must stop using and hosting the Mods, remove them from Your servers and dependent mods, and delete Your copies. Rights return only through Written Permission.
+
+The Licensor may use any remedy available, including Workshop reports and takedown notices. Not acting on a breach is not permission.
+
+
+13. BOHEMIA TERMS
+
+This License is subject to the Arma Reforger Workshop Terms of Use, the Arma Reforger EULA and the Arma Reforger Tools EULA. If they conflict with this License, they prevail. Bohemia is not a party to this License and has no duty to enforce it. Nothing here limits the functioning of the Workshop or Bohemia's right to host, deliver, review or remove a Mod.
+
+
+14. CHANGES AND GENERAL TERMS
+
+A new version of this License applies to the Mod versions published with it. Earlier Mod versions stay under the license they were published with. The current text is on each Mod's Workshop page.
+
+By downloading, hosting or using a Mod, You accept this License. If You do not accept it, do not use the Mod.
+
+If any part of this License cannot be enforced, the rest stays in effect. Mandatory law still applies.
+
+Permission requests: contact LatinaLightning through the 1-11 ACR community.

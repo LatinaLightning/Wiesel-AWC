@@ -1,0 +1,13 @@
+GameEntity : "{CC114D8ECC591664}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/VehPart_Light_Wiesel_Turn_R.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Materials {
+    MaterialAssignClass "{14D790B3E48C8198}" {
+     SourceMaterial "Light_Housing"
+     AssignedMaterial "{3A891DA2CBDF98FF}Assets/Vehicles/Tracked/Wiesel/Materials/ARCTIC/Light_Housing_ARCTIC.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GameEntity : "{FEF2DC3568D063F9}Prefabs/Vehicles/Tracked/Wiesel/Veh_parts/Lights/VehPart_Light_Wiesel_Tail_R.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Materials {
+    MaterialAssignClass "{194A07DA095868D1}" {
+     SourceMaterial "Light_Housing"
+     AssignedMaterial "{79110ED8B8CBE2A7}Assets/Vehicles/Tracked/Wiesel/Materials/NORD/Light_Housing_NORD.emat"
+    }
+   }
+  }
+ }
+}
