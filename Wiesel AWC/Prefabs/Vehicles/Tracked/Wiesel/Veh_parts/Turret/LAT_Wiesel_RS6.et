@@ -1,6 +1,9 @@
 Turret : "{FD988B9D042E272A}Prefabs/Vehicles/Generic/VehParts/Turrets/LAT_RS6/LAT_RS6_Turret_base.et" {
  ID "03645270DF662287"
  components {
+  LAT_LockComponent "{CD71AD5CA8B9D042}" {
+   m_eTargetDomain BOTH
+  }
   SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
    DoorInfoList {
     CompartmentDoorReference "{620CD9EE5080AD3D}" {
